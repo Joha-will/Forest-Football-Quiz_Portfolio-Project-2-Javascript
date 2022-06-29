@@ -25,18 +25,65 @@ h1 {
     opacity: 0.8;
     color: white;
     font-size: 5rem;
+    font-weight: bolder;
     text-align: center;
 }
 
+.center-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Carter one', cursive;
+    background-color: blanchedalmond;
+    color: black;
+    transform: scale(1.0) skew(20deg);
+    border:5px solid dimgrey;
+    padding: 10px 20px 10px 20px;
+    margin: 16rem auto -14rem auto;
+    width: 20%;
+    box-shadow: 0 0 5px greenyellow;
+
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+
+
 #footer {
     background-color: grey;
-    width: 87%;
-    height: 8vh;
-    left: 6.5%;
+    width: 65.32%;
+    height: 8.5vh;
+    margin:auto;
+    left: 17.32%;
     position: absolute;
     bottom: 0;
     text-align: center;
     font-size: small;
     color: whitesmoke;
+    border: none;
     
+}
+
+
+
+
+
+
+
+
+
+/** Media queries **/ 
+
+@media  screen and (max-width: 1629px) {
+    #footer {
+        width: 77%;
+        left: 11.5%;
+    }
 }
