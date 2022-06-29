@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
 body {
+    font-family: 'Carter One', cursive;
     padding: 0;
     margin:0;
     background-image: url('https://s8.gifyu.com/images/Screenshot-2022-06-22-at-17.28.46.png');
@@ -20,13 +23,13 @@ h1 {
     margin: 10px;
     background-color: gray;
     opacity: 0.8;
-    color: whitesmoke;
+    color: white;
     font-size: 5rem;
     text-align: center;
 }
 
 #footer {
-    background-color: gray;
+    background-color: grey;
     width: 87%;
     height: 8vh;
     left: 6.5%;
@@ -34,5 +37,6 @@ h1 {
     bottom: 0;
     text-align: center;
     font-size: small;
+    color: whitesmoke;
     
 }
