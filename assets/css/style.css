@@ -6,9 +6,9 @@ body {
     margin:0;
     border-style:none;
     background-color: #910100;
-    background-image: url('https://s8.gifyu.com/images/39809B80-61DD-42BB-B4FF-7EC765B22399_1_201_adf48a74cc0fdbcbe.jpg');
+    background-image: url('https://s8.gifyu.com/images/epl_nottingham_forest_away.png');
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center fixed;
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -58,7 +58,7 @@ button:hover {
 }
 
 .answer-btn {
-    margin: 5rem auto -3rem auto;
+    margin: 10rem auto -3rem auto;
 }
 
 #question-container {
@@ -93,7 +93,7 @@ h2 {
 #footer {
     background-color: grey;
     width: 100%;
-    height: 8.5vh;
+    height: 4vh;
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -126,6 +126,21 @@ h2 {
         width: 30%;
         font-size: 1.5rem;
     }
+
+    .answer-btn {
+        width: 30%;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media  screen and (max-width: 1030px) {
+    .answer-btn {
+        width: 30%;
+        font-size: 1.5rem;
+        margin: 5rem auto -1rem auto;
+
+    }
 }
 
 @media  screen and (max-width: 914px) {
@@ -134,9 +149,15 @@ h2 {
 
     }
 
+
     h1 {
         font-size: 3.5rem;
        
+    }
+
+    .answer-btn {
+        width: 30%;
+        font-size: 1.5rem;
     }
 }
 
@@ -151,13 +172,33 @@ h2 {
     h1 {
         font-size: 2.5rem;
     }
+
+    .answer-btn {
+        width: 30%;
+        font-size: 1rem;
+    }
 }
 
 
 @media  screen and (max-width: 480px) {
-    h1{
+    h1 {
         font-size: 1.5rem;
         padding: 20px 10px;
+    }
+
+    .answer-btn {
+        width: 30%;
+        font-size: 1rem;
+    }
+
+}
+
+
+@media  screen and (max-width: 480px) {
+
+    .answer-btn {
+        width: 30%;
+        font-size: 1rem;
     }
 
 }
