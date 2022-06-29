@@ -54,6 +54,37 @@ button:hover {
     background-color: crimson;
 }
 
+.answer-btn {
+    margin: 5rem auto -3rem auto;
+}
+
+#question-container {
+    background-color: grey;
+    width: 60%;
+    margin: auto;
+    border: 5px solid dimgrey;
+    border-radius: 50px;
+    box-shadow: 0 0 5px greenyellow;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+h2 {
+    text-align: left;
+    font-size: 2rem;
+    width: 40%;
+
+}
+
+#score-counter {
+    margin-left: 40%;
+    font-size: 2rem;
+}
+
+
 
 
 #footer {
