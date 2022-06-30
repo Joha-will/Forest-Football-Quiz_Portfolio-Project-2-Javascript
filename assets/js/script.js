@@ -6,9 +6,9 @@ const mainButtons = document.querySelector('#two-buttons');
 const textArea = document.getElementById('quiz-info');
 
 let quizInfo = `
+
     <h2> How to play </h2>
-    <p> Once you have seleted your answer, <strong> style="background-color: greenyellow" you can not change it.</strong></p>
-    <br>
+    <p> Once you have seleted your answer, <strong style="background-color: greenyellow"> you can not change it.</strong></p>
     <p> Each correct answer is worth 10 points.</p>
 `;
 
@@ -27,7 +27,13 @@ function startGame() {
 
 }
 
+function checkAnswer() {
 
+}
+
+function incrementScore() {
+    
+}
 
 
 function aboutQuiz() {
