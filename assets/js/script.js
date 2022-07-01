@@ -16,6 +16,8 @@ let quizInfo = `
 
 
 
+
+
 // Questions to display to users.
 const questions = [
     {
@@ -46,7 +48,7 @@ const questions = [
 
 
 // List of EventListeners 
-
+startButton.addEventListener('click', startGame);
 aboutButton.addEventListener('click', aboutQuiz, );
 
 
@@ -55,7 +57,7 @@ aboutButton.addEventListener('click', aboutQuiz, );
 // Function for the quiz games
 
 function startGame() {
-
+  console.log('quiz started')
 }
 
 function checkAnswer() {
@@ -69,6 +71,7 @@ function incrementScore() {
 
 function aboutQuiz() {
     removeButtons()
+    textArea.classList.add('hide')
     const homeButton = document.createElement('a');
     const homeButtonText = document.createTextNode('Home');
     textArea.innerHTML = quizInfo;

@@ -39,7 +39,7 @@ h1 {
     align-items: center;
 }
 
-button {
+button, #start-button {
     font-size: 2rem;
     font-weight: bolder;
     font-family: 'Carter one', cursive;
@@ -50,8 +50,11 @@ button {
     margin: 16rem auto -14rem auto;
     width: 20%;
     box-shadow: 0 0 5px greenyellow;
+    text-decoration: none;
+    text-align: center;
 
 }
+
 
 button:hover {
     background-color: grey;
@@ -87,6 +90,13 @@ h2 {
     font-size: 2rem;
 }
 
+.hide {
+    border: 10px solid dimgray;
+
+}
+
+
+
 
 
 #quiz-info {
@@ -96,6 +106,8 @@ h2 {
     background-color: blanchedalmond;
     width: 30%;
     margin: 8rem auto 0 auto;
+    border-radius: 15px;
+
     
 }
 
@@ -146,7 +158,7 @@ h2 {
 /** Media queries **/ 
 
 @media  screen and (max-width: 1400px) {
-    .main-buttons {
+    .main-buttons, #start-button {
         width: 30%;
 
     }
@@ -154,7 +166,7 @@ h2 {
 
 
 @media  screen and (max-width: 1000px) {
-    .main-buttons {
+    .main-buttons, #start-button {
         width: 30%;
         font-size: 1.5rem;
     }
@@ -176,7 +188,7 @@ h2 {
 }
 
 @media  screen and (max-width: 914px) {
-    .main-buttons {
+    .main-buttons, #start-button {
         width: 30%;
 
     }
@@ -195,7 +207,7 @@ h2 {
 
 
 @media  screen and (max-width: 720px) {
-    .main-buttons {
+    .main-buttons, #start-button {
         width: 50%;
         font-size: 1rem;
 
