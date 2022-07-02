@@ -20,7 +20,15 @@ const questions = [
         option2: '2001',
         option3: '2021',
         answer: 3,
-    }
+    },
+    {
+        question: 'How many years did Brian Clough manage Nottingham Forest?',
+        option1: '8',
+        option2: '16',
+        option3: '18',
+        answer: 3,
+    },
+
 ]
 
 // Getting elements from the DOM and assigning them to variables
@@ -42,18 +50,32 @@ document.addEventListener('DOMContentLoaded', startQuiz())
 
 function startQuiz(){
     randomQuestion = questions.sort(() => Math.random() - .5);
-    displayQuestions()
+    displayQuestions(0);
 }
 
-function displayQuestions() {
+function nextQuestion() {
+
+}
+
+/**
+ * This function gets the question from the array of objects
+ * and displays them users on the quiz page
+ */
+function displayQuestions(index) {
     let askedQuestions = `
-    <h2 id="display-questions"> Question: ${questions[0].question}</h2>
+    <h2 id="display-questions"> Question: ${questions[index].question}</h2>
     `;
     questionContain.innerHTML = askedQuestions;
     let ListOfBtn = `
-    <button type="button" class="answer-btn" data-number="1"> ${questions[0].option1}</button>
-    <button type="button" class="answer-btn" data-number="2"> ${questions[0].option2}</button>
-    <button type="button" class="answer-btn" data-number="3"> ${questions[0].option3}</button>
+    <button type="button" class="answer-btn" data-number="1"> A.${questions[0].option1}</button>
+    <button type="button" class="answer-btn" data-number="2"> B.${questions[0].option2}</button>
+    <button type="button" class="answer-btn" data-number="3"> C.${questions[0].option3}</button>
     `;
     answerButtons.innerHTML = ListOfBtn;
+
+
+}
+
+function checkAnswer() {
+
 }
