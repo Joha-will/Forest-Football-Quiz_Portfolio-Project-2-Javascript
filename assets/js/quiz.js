@@ -31,6 +31,7 @@ const answerButtons = document.getElementById('get-buttons');
 
 // Variables created to use within the functions
 let scoreIndex = 0;
+let quesCounter = 0;
 let randomQuestion;
 
 // Adding Eventlisteners
