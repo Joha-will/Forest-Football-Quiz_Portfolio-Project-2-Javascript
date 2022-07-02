@@ -66,6 +66,7 @@ button:hover {
 
 .answer-btn {
     margin: 3rem auto -1rem auto;
+    text-align: left;
 }
 
 #next-btn {
