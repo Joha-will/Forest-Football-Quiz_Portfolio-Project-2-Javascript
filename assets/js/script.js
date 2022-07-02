@@ -1,7 +1,7 @@
 // Declaring variables to get elements
-const startButton = document.getElementById('start-button');
 const aboutButton = document.getElementById('about-button');
 const mainButtons = document.querySelector('#two-buttons');
+
 
 const textArea = document.getElementById('quiz-info');
 
@@ -14,59 +14,13 @@ let quizInfo = `
     <p> Each correct answer is worth <strong style="background-color: greenyellow"> 10 points.</strong></p>
 `;
 
-
-
-
-
-// Questions to display to users.
-const questions = [
-    {
-        question: 'What year was Nottingham Forest FC founded?',
-        option1: '1879',
-        option2: '1906',
-        option3: '1865',
-        answer: 3,
-    },
-    {
-        question: 'What did Nottingham Forest win in 1979?',
-        option1: 'Premier League',
-        option2: 'European Cup Final',
-        option3: 'Carabao Cup Final',
-        answer:  2,
-    },
-    {
-        question: 'what year did Steve Cooper take over as Nottingham Forest manager?',
-        option1: '1993',
-        option2: '2001',
-        option3: '2021',
-        answer: 3,
-    },
-]
-
-
-
-
-
 // List of EventListeners 
-startButton.addEventListener('click', startGame);
 aboutButton.addEventListener('click', aboutQuiz, );
 
 
 
 
 // Function for the quiz games
-
-function startGame() {
-  console.log('quiz started')
-}
-
-function checkAnswer() {
-
-}
-
-function incrementScore() {
-
-}
 
 
 function aboutQuiz() {
@@ -79,6 +33,7 @@ function aboutQuiz() {
     homeButton.append(homeButtonText);
     homeButton.setAttribute('class', 'home-button');
     homeButton.setAttribute('href', './index.html');
+    console.log('click')
 }
 
 function removeButtons() {
