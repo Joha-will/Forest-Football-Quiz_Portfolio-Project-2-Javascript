@@ -150,7 +150,9 @@ h2 {
 
 }
 
-
+.hide-pointer {
+    cursor:default;
+}
 
 
 

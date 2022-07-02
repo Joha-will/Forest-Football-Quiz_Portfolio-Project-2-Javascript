@@ -28,6 +28,13 @@ const questions = [
         option3: '18',
         answer: '18',
     },
+    {
+        question: 'What team did Forest beat to win the European Cup Final in 1980?',
+        option1: 'Barcelona FC',
+        option2: 'Malmö FF',
+        option3: 'Chelsea FC',
+        answer: 'Barcelona FC',
+    },
 
 ]
 
@@ -35,6 +42,7 @@ const questions = [
 
 const questionContain = document.getElementById('question-container');
 const answerButtons = document.getElementById('get-buttons');
+let nextButton = document.getElementById('next-btn')
 
 
 // Variables created to use within the functions
@@ -44,16 +52,29 @@ let randomQuestion;
 
 // Adding Eventlisteners
 document.addEventListener('DOMContentLoaded', startQuiz())
+nextButton.addEventListener('click', nextQuestion)
 
 
 // Functions to play and control the quiz game
-
+/**
+ * The start quiz function shuffles the array of questions and then display it to users of the quiz.
+ */
 function startQuiz(){
     randomQuestion = questions.sort(() => Math.random() - .5);
     displayQuestions(0);
 }
 
+
+
+/**
+ * This is the next question function, which gets the next question in the array of question when the next button is clicked.
+ */
 function nextQuestion() {
+    if (quesCounter < questions.length - 1) {
+        quesCounter++;
+        displayQuestions(quesCounter);
+    }
+    
 
 }
 
@@ -69,9 +90,9 @@ function displayQuestions(index) {
     `;
     questionContain.innerHTML = askedQuestions;
     let ListOfBtn = `
-    <button type="button" class="answer-btn" data-number="1">${questions[0].option1}</button>
-    <button type="button" class="answer-btn" data-number="2">${questions[0].option2}</button>
-    <button type="button" class="answer-btn" data-number="3">${questions[0].option3}</button>
+    <button type="button" class="answer-btn" data-number="1">${questions[index].option1}</button>
+    <button type="button" class="answer-btn" data-number="2">${questions[index].option2}</button>
+    <button type="button" class="answer-btn" data-number="3">${questions[index].option3}</button>
     `;
     answerButtons.innerHTML = ListOfBtn;
     theButtons = document.querySelectorAll('.answer-btn');
@@ -82,6 +103,11 @@ function displayQuestions(index) {
 
 }
 
+/**
+ * This function check to see if the answer choosen by the user is correct.
+ * If it is correct, the selected choice turns green and if incorrect it turn red.
+ * After selecting an answer, it sets the cursor pointer back to default
+ */
 function checkAnswer(answer) {
     let userChoice = answer.textContent;
     let correctAnswer = questions[0].answer;
@@ -92,5 +118,8 @@ function checkAnswer(answer) {
         answer.classList.add('incorrect')
     }
     
+    for (let i = 0; i < theButtons.length; i++) {
+        theButtons[i].classList.add('hide-pointer');
+    }
 
 }
