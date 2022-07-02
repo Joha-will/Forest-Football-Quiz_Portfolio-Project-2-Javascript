@@ -86,9 +86,11 @@ function checkAnswer(answer) {
     let userChoice = answer.textContent;
     let correctAnswer = questions[0].answer;
     if (userChoice === correctAnswer) {
+        answer.classList.add('correct')
         console.log('you are right')
     } else{
-        console.log('you are wrong')
+        answer.classList.add('incorrect')
     }
+    
 
 }

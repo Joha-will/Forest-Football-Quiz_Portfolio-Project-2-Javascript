@@ -56,18 +56,21 @@ button, #start-button {
 }
 
 
-button:hover {
-    background-color: grey;
+#about-button:hover {
+    background-color: lightgrey;
 }
 
+
 #start-button:hover {
-    background-color: grey;
+    background-color: lightgrey;
 }
 
 .answer-btn {
     margin: 3rem auto -1rem auto;
     text-align: left;
+    cursor: pointer;
 }
+
 
 #next-btn {
     width: 10%;
@@ -135,6 +138,12 @@ h2 {
 }
 
 
+.correct {
+    background-color: greenyellow;
+}
+.incorrect {
+    background-color: crimson;
+}
 
 .hide {
     display: none;
