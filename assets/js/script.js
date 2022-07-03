@@ -20,7 +20,7 @@ aboutButton.addEventListener('click', aboutQuiz, );
 
 
 
-// Function for the quiz games
+// Functions for the quiz games
 
 
 function aboutQuiz() {

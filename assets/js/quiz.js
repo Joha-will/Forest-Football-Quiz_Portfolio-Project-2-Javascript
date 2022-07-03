@@ -14,6 +14,7 @@ const questions = [
         option3: 'Carabao Cup Final',
         answer: 'European Cup Final',
     },
+    /*
     {
         question: 'What year did Steve Cooper take over as Nottingham Forest manager?',
         option1: '1993',
@@ -33,8 +34,10 @@ const questions = [
         option1: 'Barcelona FC',
         option2: 'Malmö FF',
         option3: 'Chelsea FC',
-        answer: 'Barcelona FC',
+        answer: 'Malmö FF',
     },
+
+    
     {
         question: 'What year did Nottingham Forest with the Division 1?',
         option1: '1998-99',
@@ -69,7 +72,7 @@ const questions = [
         option2: 'Changy the Elephant',
         option3: 'Lucas the Kop Kat',
         answer: 'Robin Hood',
-    },
+    }, */
 
 ];
 
@@ -111,8 +114,9 @@ function nextQuestion() {
         quesCounter++;
         displayQuestions(quesCounter);
         nextButton.classList.add('hide');
+    }else {
+        return window.location.assign('quiz-finish.html')
     }
-    
 
 }
 
@@ -174,4 +178,4 @@ function incrementScore() {
 }
 
 
-    
+

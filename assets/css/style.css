@@ -39,20 +39,29 @@ h1 {
     align-items: center;
 }
 
-button, #start-button {
+button, 
+#start-button,
+.main-buttons {
     font-size: 1.5rem;
     font-weight: bolder;
     font-family: 'Carter one', cursive;
     background-color: #3596B5;
     color: white;
     transform: scale(1.0) skew(20deg);
-    border:5px solid dimgray;
+    border:5px solid dim;
     margin: 16rem auto -14rem auto;
     width: 20%;
     box-shadow: 0 0 5px greenyellow;
     text-decoration: none;
     text-align: center;
 
+}
+
+#finish-button {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -188,6 +197,13 @@ h2 {
 .home-button:hover {
     font-size: larger;
     background-color: gray;
+}
+
+#results-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
