@@ -35,6 +35,41 @@ const questions = [
         option3: 'Chelsea FC',
         answer: 'Barcelona FC',
     },
+    {
+        quesiton: 'What is Nottingham Forest Mascot?',
+        option1: 'Robin Hood',
+        option2: 'Changy the Elephant',
+        option3: 'Lucas the Kop Kat',
+        answer: 'Robin Hood',
+    },
+    {
+        question: 'What year did Notthingham Forest with the Division 1?',
+        option1: '1998-99',
+        option2: '1997-98',
+        option3: '1993-94',
+        answer: '1997-98',
+    },
+    {
+        question: 'When did Forest last Premier league campaign ended?',
+        option1: '1999',
+        option2: '2005',
+        option3: '1996',
+        answer: '1999',
+    },
+    {
+        question: 'How many League Cups have Nottingham Forest won?',
+        option1: '1',
+        option2: '3',
+        option3: '4',
+        answer: '4',
+    },
+    {
+        question: 'What is the Nottingham Forest Stadium called?',
+        option1: 'Red Bull Arena',
+        option2: 'City Ground',
+        option3: 'Meadow Lane',
+        answer: 'City Ground',
+    },
 
 ]
 
