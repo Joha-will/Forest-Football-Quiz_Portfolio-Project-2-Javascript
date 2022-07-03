@@ -36,7 +36,7 @@ const questions = [
         answer: 'Barcelona FC',
     },
     {
-        question: 'What year did Notthingham Forest with the Division 1?',
+        question: 'What year did Nottingham Forest with the Division 1?',
         option1: '1998-99',
         option2: '1997-98',
         option3: '1993-94',
@@ -166,7 +166,7 @@ function checkAnswer(answer) {
     };  
 
     /**
-     * This increments the scoreCount everytime the user get a question correct.
+     * This function adds 10 points to score count everytime the user selects the correct answer.
      */
 function incrementScore() {
     scoreCount += 10;

@@ -1,10 +1,21 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## **Introduction**
+Welcome to my second project, a general knowledge quiz app on Nottingham Forest Football club. 
 
-Welcome Joha-will,
+The idea of my second project came from my love and interest in football in particular, my love for Nottingham Forest Football club and their promotion to the Premier league this year 2022. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+During the creation of my second project I have been able to develop my HTML, CSS and JavaScript skills. These skills have enabled me to create a more interactive and fun experience for the users. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+I aim to continuously develop and improve my skills I have learnt throughout my second project. 
+
+In this README I will explain step by step the processes taken to create and plan this project including screen shots, images, links and more. 
+
+Thank you for taking interest and viewing my project.
+
+I hope you enjoy the quiz! 
+
+
+
+
 
 ## Gitpod Reminders
 
