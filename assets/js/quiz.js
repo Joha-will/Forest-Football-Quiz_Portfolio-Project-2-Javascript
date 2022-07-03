@@ -77,11 +77,12 @@ const questions = [
 
 const questionContain = document.getElementById('question-container');
 const answerButtons = document.getElementById('get-buttons');
-let nextButton = document.getElementById('next-btn')
+let nextButton = document.getElementById('next-btn');
+const displayScore = document.querySelector('#score-counter');
 
 
 // Variables created to use within the functions
-let scoreIndex = 0;
+let scoreCount = 0;
 let quesCounter = 0;
 let randomQuestion;
 
@@ -151,6 +152,7 @@ function checkAnswer(answer) {
     if (userChoice === correctAnswer) {
         answer.classList.add('correct')
         nextButton.classList.remove('hide')
+        incrementScore();
         console.log('you are right')
     } else {
         answer.classList.add('incorrect')
@@ -161,6 +163,15 @@ function checkAnswer(answer) {
         theButtons[i].classList.add('disable-pointer');
     }
 
-    };
-    
+    };  
+
+    /**
+     * This increments the scoreCount everytime the user get a question correct.
+     */
+function incrementScore() {
+    scoreCount += 10;
+    displayScore.innerText = 'Score: ' + scoreCount;
+}
+
+
     
