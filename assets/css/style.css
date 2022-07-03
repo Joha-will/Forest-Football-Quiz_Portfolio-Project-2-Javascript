@@ -76,6 +76,7 @@ button, #start-button {
     width: 10%;
     margin: 4rem 0 0 40rem;
     border-radius: 100px;
+    cursor: pointer;
 }
 
 /**
@@ -150,8 +151,8 @@ h2 {
 
 }
 
-.hide-pointer {
-    cursor:default;
+.disable-pointer {
+    pointer-events: none;
 }
 
 

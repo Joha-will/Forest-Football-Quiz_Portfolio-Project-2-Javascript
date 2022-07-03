@@ -36,13 +36,6 @@ const questions = [
         answer: 'Barcelona FC',
     },
     {
-        quesiton: 'What is Nottingham Forest Mascot?',
-        option1: 'Robin Hood',
-        option2: 'Changy the Elephant',
-        option3: 'Lucas the Kop Kat',
-        answer: 'Robin Hood',
-    },
-    {
         question: 'What year did Notthingham Forest with the Division 1?',
         option1: '1998-99',
         option2: '1997-98',
@@ -70,8 +63,15 @@ const questions = [
         option3: 'Meadow Lane',
         answer: 'City Ground',
     },
+    {
+        question: 'What is Nottingham Forest Mascot?',
+        option1: 'Robin Hood',
+        option2: 'Changy the Elephant',
+        option3: 'Lucas the Kop Kat',
+        answer: 'Robin Hood',
+    },
 
-]
+];
 
 // Getting elements from the DOM and assigning them to variables
 
@@ -86,8 +86,8 @@ let quesCounter = 0;
 let randomQuestion;
 
 // Adding Eventlisteners
-document.addEventListener('DOMContentLoaded', startQuiz())
-nextButton.addEventListener('click', nextQuestion)
+document.addEventListener('DOMContentLoaded', startQuiz());
+nextButton.addEventListener('click', nextQuestion);
 
 
 // Functions to play and control the quiz game
@@ -103,11 +103,13 @@ function startQuiz(){
 
 /**
  * This is the next question function, which gets the next question in the array of question when the next button is clicked.
+ * It also hides the next button everytime it gets clicked.
  */
 function nextQuestion() {
     if (quesCounter < questions.length - 1) {
         quesCounter++;
         displayQuestions(quesCounter);
+        nextButton.classList.add('hide');
     }
     
 
@@ -145,16 +147,20 @@ function displayQuestions(index) {
  */
 function checkAnswer(answer) {
     let userChoice = answer.textContent;
-    let correctAnswer = questions[0].answer;
+    let correctAnswer = questions[quesCounter].answer;
     if (userChoice === correctAnswer) {
         answer.classList.add('correct')
+        nextButton.classList.remove('hide')
         console.log('you are right')
-    } else{
+    } else {
         answer.classList.add('incorrect')
+        nextButton.classList.remove('hide')
+        console.log('it is wrong')
     }
-    
     for (let i = 0; i < theButtons.length; i++) {
-        theButtons[i].classList.add('hide-pointer');
+        theButtons[i].classList.add('disable-pointer');
     }
 
-}
+    };
+    
+    
