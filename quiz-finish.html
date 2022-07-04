@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,19 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Forest Football Quiz</title>
 </head>
+
 <body>
-    <div id="results-display">
-        <div id="final-score">0</div>
-        <div id="form-results">
-            <form>
-                <label for="name"> Enter your name below to save your score!</label>
-                <input type="text" id="name" name="name" placeholder="Enter Your Name">
-                <button type="submit" ></button>
+    <div id="results-area">
+        <div id="display-results">
+            <h1>Score</h1>
+            <form id="form-results">
+                <label>Enter your name below to save your score!</label>
+                <input type="text" name="name" id="user-name" placeholder="Enter Your Name!">
+                <br>
+                <button type="submit" id="submit-button" >submit</button>
             </form>
-        </div>
-        <div restart-buttons>
-            <a href="quiz.html" class="main-buttons">Play Again</a>
-            <a href="index.html" class="main-buttons"> Home</a>
+            <a href="quiz.html" id="restart-button">Play Again</a>
+            <a href="index.html" id="home-button">Home</a>
 
         </div>
 
@@ -28,4 +29,5 @@
 
     <script src="assets/js/quiz.js"></script>
 </body>
+
 </html>

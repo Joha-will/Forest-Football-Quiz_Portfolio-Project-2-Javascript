@@ -19,7 +19,6 @@ aboutButton.addEventListener('click', aboutQuiz, );
 
 
 
-
 // Functions for the quiz games
 
 

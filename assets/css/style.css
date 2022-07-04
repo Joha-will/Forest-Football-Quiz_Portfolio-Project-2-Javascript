@@ -5,10 +5,9 @@ body {
     padding: 0;
     margin:0;
     border-style:none;
-    background-color: #910100;
-    background-image: url('https://s8.gifyu.com/images/epl_nottingham_forest_away.png');
+    background-image: url('https://s8.gifyu.com/images/wallpaperflare.com_wallpaper-4e5045f9723c4e55c.jpg');
     background-repeat: no-repeat;
-    background-position: center fixed;
+    background-position: center top;
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -39,7 +38,8 @@ h1 {
     align-items: center;
 }
 
-button, 
+ 
+
 #start-button,
 .main-buttons {
     font-size: 1.5rem;
@@ -48,7 +48,8 @@ button,
     background-color: #3596B5;
     color: white;
     transform: scale(1.0) skew(20deg);
-    border:5px solid dim;
+    border:5px groove grey ;
+    padding: 5px;
     margin: 16rem auto -14rem auto;
     width: 20%;
     box-shadow: 0 0 5px greenyellow;
@@ -56,6 +57,9 @@ button,
     text-align: center;
 
 }
+
+
+
 
 #finish-button {
     background-color: crimson;
@@ -199,11 +203,34 @@ h2 {
     background-color: gray;
 }
 
-#results-display {
+
+
+
+#display-results {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+#form-results {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+input {
+    padding: 15px 10px;
+    width: 50%;
+    box-shadow: 0 0 5px greenyellow;
+    transform: scale(1.0) skew(20deg)
+}
+
+#submit-button,
+#restart-button,
+#home-button {
+    margin: 1rem auto --5rem auto;
+    width: 30%;
 }
 
 
@@ -221,6 +248,9 @@ h2 {
 
     
 }
+
+
+
 
 
 

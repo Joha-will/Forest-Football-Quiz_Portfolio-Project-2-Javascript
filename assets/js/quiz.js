@@ -132,9 +132,9 @@ function displayQuestions(index) {
     `;
     questionContain.innerHTML = askedQuestions;
     let ListOfBtn = `
-    <button type="button" class="answer-btn" data-number="1">${questions[index].option1}</button>
-    <button type="button" class="answer-btn" data-number="2">${questions[index].option2}</button>
-    <button type="button" class="answer-btn" data-number="3">${questions[index].option3}</button>
+    <button type="button" class="answer-btn main-buttons" data-number="1">${questions[index].option1}</button>
+    <button type="button" class="answer-btn main-buttons" data-number="2">${questions[index].option2}</button>
+    <button type="button" class="answer-btn main-buttons" data-number="3">${questions[index].option3}</button>
     `;
     answerButtons.innerHTML = ListOfBtn;
     theButtons = document.querySelectorAll('.answer-btn');
