@@ -34,7 +34,7 @@ h1 {
     background-color: gray;
     opacity: 0.8;
     color: white;
-    font-size: 5rem;
+    font-size: 4.4rem;
     font-weight: bolder;
     text-align: center;
 }
@@ -49,6 +49,9 @@ h1 {
 }
 
  
+
+
+
 
 
 .main-buttons {
@@ -264,20 +267,43 @@ input {
 
 
 
+
 #footer {
     background-color: grey;
     width: 100%;
-    height: 4vh;
+    height:5vh;
     position: absolute;
     bottom: 0;
-    text-align: center;
-    font-size: small;
-    color: whitesmoke;
+    color: white;
+    display: flex;
 
     
 }
 
+#copy-rights {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin: 0 auto;
+    
+}
 
+#social-media {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    color: lightblue;
+
+}
+
+
+.fa-brands {
+    color: lightblue;
+    font-size: 2rem;
+}
 
 
 
@@ -334,6 +360,10 @@ input {
     
 
 }
+
+
+
+
 
 @media  screen and (max-width: 1029px) {
    
