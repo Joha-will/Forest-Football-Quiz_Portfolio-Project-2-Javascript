@@ -88,6 +88,24 @@ const displayScore = document.querySelector('#score-counter');
 let scoreCount = 0;
 let quesCounter = 0;
 let randomQuestion;
+let resultsText = `
+<div id="results-area">
+<div id="display-results">
+<h1><i class="fa-solid fa-face-grin"></i> You scored ${scoreCount} points <i class="fa-solid fa-face-grin"></i></h1>
+    <form id="form-results">
+        <label>Enter your name below to save your score! </label>
+        <br>
+        <input type="text" name="name" id="user-name" placeholder="Enter Your Name!">
+        <br>
+        <button type="submit" id="submit-button" >Submit</button>
+    </form>
+    <a href="quiz.html" id="restart-button">Play Again</a>
+    <a href="index.html" id="home-button">Home</a>
+
+</div>
+
+</div>
+`;
 
 
 // Adding Eventlisteners
@@ -122,24 +140,25 @@ function nextQuestion() {
         nextButton.classList.add('hide')
         answerButtons.classList.add('hide')
         displayScore.classList.add('hide')
-        questionContain.classList.add('final-results')
-        questionContain.innerHTML = `
+        questionContain.removeAttribute('id')
+        questionContain.innerHTML =  `
         <div id="results-area">
         <div id="display-results">
-        <h1> You scored ${scoreCount} points</h1>
+        <h1><i class="fa-solid fa-face-grin"></i> You scored ${scoreCount} points <i class="fa-solid fa-face-grin"></i></h1>
             <form id="form-results">
                 <label>Enter your name below to save your score!</label>
                 <input type="text" name="name" id="user-name" placeholder="Enter Your Name!">
                 <br>
-                <button type="submit" id="submit-button" >submit</button>
+                <button type="submit" id="submit-button" >Submit</button>
             </form>
             <a href="quiz.html" id="restart-button">Play Again</a>
-            <a href="index.html" id="home-button">Home</a>
-
+            <a href="index.html" id="home-button"> Home </a>
+        
         </div>
-
+        
         </div>
-        `
+        `;
+        questionContain.classList.add('final-background')
 
     }
 }

@@ -21,7 +21,9 @@ aboutButton.addEventListener('click', aboutQuiz, );
 
 // Functions for the quiz games
 
-
+/**
+ *  When the about buttons is clicked, it triggers this function which removes the start and about button and displays a how to play text.
+ */
 function aboutQuiz() {
     removeButtons()
     textArea.classList.add('hide')
