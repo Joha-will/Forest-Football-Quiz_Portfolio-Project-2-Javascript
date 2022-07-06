@@ -79,17 +79,16 @@ const questions = [
 // Getting elements from the DOM and assigning them to variables
 
 const questionContain = document.getElementById('question-container');
-const answerButtons = document.getElementById('get-buttons');
+const answerButtons = document.getElementById('get-buttons')
 let nextButton = document.getElementById('next-btn');
 const displayScore = document.querySelector('#score-counter');
-let finalScore = document.querySelector('#result-header');
-
 
 
 // Variables created to use within the functions
 let scoreCount = 0;
 let quesCounter = 0;
 let randomQuestion;
+
 
 // Adding Eventlisteners
 document.addEventListener('DOMContentLoaded', startQuiz());
@@ -120,8 +119,27 @@ function nextQuestion() {
         displayQuestions(quesCounter);
         nextButton.classList.add('hide');
     }else {
+        nextButton.classList.add('hide')
+        answerButtons.classList.add('hide')
+        displayScore.classList.add('hide')
+        questionContain.classList.add('final-results')
+        questionContain.innerHTML = `
+        <div id="results-area">
+        <div id="display-results">
+        <h1> You scored ${scoreCount} points</h1>
+            <form id="form-results">
+                <label>Enter your name below to save your score!</label>
+                <input type="text" name="name" id="user-name" placeholder="Enter Your Name!">
+                <br>
+                <button type="submit" id="submit-button" >submit</button>
+            </form>
+            <a href="quiz.html" id="restart-button">Play Again</a>
+            <a href="index.html" id="home-button">Home</a>
 
-        return window.location.assign('quiz-finish.html');
+        </div>
+
+        </div>
+        `
 
     }
 }
@@ -179,16 +197,14 @@ function checkAnswer(answer) {
 
     };  
 
+
+
+
     /**
      * This function adds 10 points to score count everytime the user selects the correct answer.
      */
 function incrementScore() {
     scoreCount += 10;
     displayScore.innerText = 'Score: ' + scoreCount;
-}
-
-function showResults() {
-    let finalScore = document.querySelector('#result-header');
-    let userResults = `Your final score was ${scoreCount}`;
-    finalScore.innerHTML = userResults;
+    
 }

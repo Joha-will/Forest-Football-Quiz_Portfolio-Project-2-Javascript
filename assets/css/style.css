@@ -138,8 +138,8 @@ h1 {
 }
 
 #question-container {
-    background-color: #3596B5;
-    width: 90%;
+    background-color: #777288;
+    width: 80vw;
     margin: auto auto;
     border: 5px solid dimgray;
     border-radius: 50px;
@@ -169,7 +169,7 @@ h2 {
     font-size: 2rem;
     text-align: center;
     color: white;
-    background-color: #3596B5;
+    background-color: #777288;
     box-shadow: 0 0 5px greenyellow;
     border: 5px solid dimgray;
     border-radius: 50px;
@@ -227,6 +227,17 @@ h2 {
 .home-button:hover {
     font-size: larger;
     background-color: gray;
+}
+
+
+.final-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem auto;
+    text-align: center;
+    
 }
 
 
