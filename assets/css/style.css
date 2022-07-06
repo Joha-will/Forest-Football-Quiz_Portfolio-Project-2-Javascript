@@ -33,28 +33,26 @@ h1 {
     margin: 10px;
     background-color: #777288;
     color: white;
-    font-size: 4.4rem;
+    font-size: 3.5rem;
     font-weight: bolder;
     text-align: center;
 }
 
 
-
+#header {
+    margin: 10px;
+    background-color: #777288;
+    color: white;
+    font-size: 4.4rem;
+    font-weight: bolder;
+    text-align: center;
+}
 
 .center-buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-#start-button,
-#about-button {
-    margin: 1rem auto 4rem auto ;
-
-}
- 
-
-
 
 
 
@@ -149,7 +147,6 @@ h1 {
     width: 80vw;
     margin: 0 auto;
     border: 5px solid dimgray;
-    border-radius: 50px;
     box-shadow: 0 0 5px greenyellow;
     opacity: 1;
 
@@ -157,8 +154,8 @@ h1 {
 
 .final-background {
     background-color: #777288;
-    width: 800px;
-    height: 40rem;
+    width: 50rem;
+    height: 35rem;
     margin: 5rem auto;
     border: 5px solid dimgray;
     border-radius: 50px;
@@ -175,7 +172,6 @@ h2 {
 
 }
 
-
 #display-questions {
     color: white;
     height: 40px;
@@ -186,12 +182,11 @@ h2 {
 
     width: 10%;
     font-size: 2rem;
-    text-align: center;
+    left: 100%;
     color: white;
     background-color: #777288;
-    box-shadow: 0 0 5px greenyellow;
+    box-shadow: 0 0 0.5px 0.5px greenyellow;
     border: 5px solid dimgray;
-    border-radius: 50px;
     border-top: none;
 
 
@@ -322,7 +317,7 @@ input {
 #footer {
     background-color: #777288;
     width: 100vw;
-    height:4vh;
+    height:4.5vh;
     position: absolute;
     bottom: 0;
     font-family: 'Times New Roman', Times, serif;
@@ -673,5 +668,21 @@ input {
 
     #about-button {
         width: 55%;
+    }
+
+    .final-background {
+        background-color: #777288;
+        width: 15rem;
+        height:26rem;
+        margin: 5rem auto;
+        border: 5px solid dimgray;
+        border-radius: 50px;
+        box-shadow: 0 0 5px greenyellow;
+        opacity: 1;
+    
+    }
+
+    #footer {
+        width: 100vw;
     }
 }
