@@ -72,6 +72,11 @@ h1 {
     text-align: center;
 }
 
+.main-buttons:hover {
+    background-color: lightgrey;
+}
+
+
 #start-button,
 #about-button {
     margin: 14rem auto -10rem auto;
@@ -121,6 +126,10 @@ h1 {
     margin: 4rem 0 0 40rem;
     border-radius: 100px;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: lightgrey;
 }
 
 
@@ -351,6 +360,10 @@ input {
     color: white;
     font-size: 2rem;
     box-shadow: 0 0 5px greenyellow;
+}
+
+.fa-brands:hover {
+    font-size: 2.5rem ;
 }
 
 
