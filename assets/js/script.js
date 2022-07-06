@@ -1,8 +1,6 @@
-// Declaring variables to get elements
+// // Getting elements from the DOM and assigning them to variables
 const aboutButton = document.getElementById('about-button');
 const mainButtons = document.querySelector('#two-buttons');
-
-
 const textArea = document.getElementById('quiz-info');
 
 let quizInfo = `
@@ -13,6 +11,7 @@ let quizInfo = `
     <p> Once you have seleted your answer, <strong style="background-color: greenyellow"> you can not change it.</strong></p>
     <p> Each correct answer is worth <strong style="background-color: greenyellow"> 10 points.</strong></p>
 `;
+
 
 // List of EventListeners 
 aboutButton.addEventListener('click', aboutQuiz, );

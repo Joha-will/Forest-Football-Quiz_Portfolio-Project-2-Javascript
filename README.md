@@ -1,3 +1,6 @@
+# **Forest Football Quiz** 
+
+
 ## **Introduction**
 Welcome to my second project, a general knowledge quiz app on Nottingham Forest Football club. 
 
@@ -13,11 +16,41 @@ Thank you for taking interest and viewing my project.
 
 I hope you enjoy the quiz! 
 
+---
+
+## **User Experience (UX)**
+
+### **User Stories**
+
+- ### First time visitors goals
+    - 
+
+
+
+## **Technologies Used**
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+    - This was used for the structure of the web page and it's content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+    - This was used to style the HTML document.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+    - This was used for the interactivity, behaviors of the web.
+
+**Frameworks and Tools**
+
+- [Google Fonts]()
+    - The main font of the web site was found on Google Fonts.
+- [Font Awesome](https://fontawesome.com/)
+    - The icons that was used in this project was found on Font Awesome.
+- [ Google Developer Tools](https://developer.mozilla.org/en-US/docs/Glossary/Developer_Tools)
+    This was one of the most used tool throughout the development of this project, as it can be used for tasks like testing, debugging and showing where elements are positioned on the web page.
+- [Gitpod](https://gitpod.io/)
+    - This was the development environment used to build this project.
+- 
 
 
 
 
-## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
