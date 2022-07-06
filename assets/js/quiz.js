@@ -82,6 +82,8 @@ const questionContain = document.getElementById('question-container');
 const answerButtons = document.getElementById('get-buttons');
 let nextButton = document.getElementById('next-btn');
 const displayScore = document.querySelector('#score-counter');
+let finalScore = document.querySelector('#result-header');
+
 
 
 // Variables created to use within the functions
@@ -92,6 +94,9 @@ let randomQuestion;
 // Adding Eventlisteners
 document.addEventListener('DOMContentLoaded', startQuiz());
 nextButton.addEventListener('click', nextQuestion);
+
+
+
 
 
 // Functions to play and control the quiz game
@@ -115,10 +120,14 @@ function nextQuestion() {
         displayQuestions(quesCounter);
         nextButton.classList.add('hide');
     }else {
-        return window.location.assign('quiz-finish.html')
-    }
 
+        return window.location.assign('quiz-finish.html');
+
+    }
 }
+
+
+
 
 /**
  * This function gets the question from the array of objects
@@ -144,6 +153,7 @@ function displayQuestions(index) {
 
 
 }
+
 
 /**
  * This function check to see if the answer choosen by the user is correct.
@@ -177,5 +187,8 @@ function incrementScore() {
     displayScore.innerText = 'Score: ' + scoreCount;
 }
 
-
-
+function showResults() {
+    let finalScore = document.querySelector('#result-header');
+    let userResults = `Your final score was ${scoreCount}`;
+    finalScore.innerHTML = userResults;
+}
