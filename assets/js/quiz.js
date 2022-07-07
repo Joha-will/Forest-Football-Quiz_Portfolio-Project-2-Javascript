@@ -80,14 +80,18 @@ const questions = [
 
 const questionContain = document.getElementById('question-container');
 const answerButtons = document.getElementById('get-buttons')
-let nextButton = document.getElementById('next-btn');
 const displayScore = document.querySelector('#score-counter');
+let nextButton = document.getElementById('next-btn');
+let formResults = document.querySelector('#form-results')
+
+
 
 
 // Variables created to use within the functions
 let scoreCount = 0;
 let quesCounter = 0;
 let randomQuestion;
+let highScore = [];
 
 
 // Adding Eventlisteners
@@ -200,14 +204,14 @@ function finalResults(){
     <div id="results-area">
     <div id="display-results">
     <h1><i class="fa-solid fa-face-grin"></i> You scored ${scoreCount} points <i class="fa-solid fa-face-grin"></i></h1>
-        <form id="form-results">
+        <form id="form-results" action="/" onsubmit="saveName(event);">
             <label>Enter your name below to save your score!</label>
-            <input type="text" name="name" id="user-name" placeholder="Enter Your Name!">
+            <input type="text" name="name" id="username" placeholder="Enter Your Name!">
             <br>
-            <button type="submit" id="submit-button" >Submit</button>
+            <button type="submit" id="submit-button" value="Submit"> Save</button>
         </form>
         <a href="quiz.html" id="restart-button">Play Again</a>
-        <a href="index.html" id="home-button"> Home </a>
+        <a href="index.html" id="home-button" > Home </a>
     
     </div>
     
@@ -216,3 +220,29 @@ function finalResults(){
     questionContain.classList.add('final-background')
 
 }
+
+
+function saveName(e) {
+    e.preventDefault()
+
+    let userName = document.getElementById('username').value
+    highScore.push(userName)
+
+    for (let i = 0; i < highScore.length; ++i) {
+        let scoreList = `
+        <div class="center-items">
+            <h2 id="high-score"high-score>High Scores</h2>
+            <p>${highScore[i]} - ${scoreCount} Points</p>
+        </div>`
+
+        questionContain.innerHTML = scoreList
+
+        
+        console.log(scoreList)
+    }
+
+
+    
+}
+
+
