@@ -224,7 +224,8 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blanchedalmond;
+    background-color: #777288;
+    color: white;
     width: 30%;
     margin: 8rem auto 0 auto;
     border-radius: 15px;
@@ -405,7 +406,7 @@ input {
 
 @media  screen and (max-width: 1280px) {
 
-    h1 {
+    #header {
         font-size: 4.4rem;
        
     }
@@ -433,7 +434,7 @@ input {
         margin: 10rem auto -20rem auto;
     }
 
-    h1 {
+    #header {
         font-size: 4.4rem;
        
     }
@@ -477,7 +478,7 @@ input {
     #footer {
         height: 5vh;
     }
-    h1 {
+    #header {
         font-size: 3rem;
        
     }
@@ -490,7 +491,7 @@ input {
     }
 
 
-    h1 {
+    #header {
         font-size: 3.5rem;
        
     }
@@ -520,7 +521,7 @@ input {
 
     }
 
-    h1 {
+    #header {
         font-size: 2.5rem;
     }
 
@@ -543,7 +544,7 @@ input {
         margin: 4rem auto -3rem auto;
     }
 
-    h1 {
+    #header {
         font-size: 2rem;
         padding: 20px 10px;
     }
@@ -556,7 +557,7 @@ input {
 
 
 @media  screen and (max-width: 480px) {
-    h1 {
+    #header {
         font-size: 1.5rem;
         padding: 20px 10px;
     }
@@ -578,7 +579,7 @@ input {
 
 
 @media  screen and (max-width: 375px) {
-    h1 {
+    #header {
         font-size: 1.5rem;
         padding: 20px 10px;
     }
@@ -660,8 +661,8 @@ input {
 
 
 @media  screen and (max-width: 280px) {
-    h1 {
-        font-size: 1.1rem;
+    #header {
+        font-size: 1rem;
         padding: 30px 10px;
     }
 

@@ -111,7 +111,8 @@ function startQuiz(){
 
 /**
  * This is the next question function, which gets the next question in the array of question when the next button is clicked.
- * It also hides the next button everytime it gets clicked.
+ * It also hides the next button everytime one of the answer buttons gets clicked.
+ * After looping through the array of objects, it hides the buttons and score bar and diplays you final results.
  */
 function nextQuestion() {
     if (quesCounter < questions.length - 1) {
