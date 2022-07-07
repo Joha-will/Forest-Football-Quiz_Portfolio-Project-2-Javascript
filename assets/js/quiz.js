@@ -225,6 +225,7 @@ function finalResults(){
 function saveName(e) {
     e.preventDefault()
 
+    let nameCount = 1;
     let userName = document.getElementById('username').value
     highScore.push(userName)
 
@@ -232,16 +233,26 @@ function saveName(e) {
         let scoreList = `
         <div class="center-items">
             <h2 id="high-score"high-score>High Scores</h2>
-            <p>${highScore[i]} - ${scoreCount} Points</p>
+            <p>${nameCount }. ${ highScore[i]} - ${scoreCount} Points</p>
+            <a href="quiz.html" id="restart-button">Play Again</a>
+            <a href="index.html" id="home-button" > Home </a>
         </div>`
 
-        questionContain.innerHTML = scoreList
+    if (userName.length < 5){
+            alert('Your username is too short! Must be 5 or more characters')
+    
+    } else {
+            console.log('username successful!')
+            questionContain.innerHTML = scoreList
+    }
+    
+            
+        console.log(scoreList)   
 
-        
-        console.log(scoreList)
+    
     }
 
-
+    
     
 }
 

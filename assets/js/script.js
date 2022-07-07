@@ -6,7 +6,7 @@ const textArea = document.getElementById('quiz-info');
 let quizInfo = `
 
     <h2 style="text-decoration: underline;"> How to play </h2>
-    <p> To start game just simply click the <strong style="background-color: #17D062"> Start Quiz Button.</strong></p>
+    <p> To start the quiz, just simply click the <strong style="background-color: #17D062"> Start Quiz Button.</strong></p>
     <p> Choose the answer that you think is correct.</p>
     <p> Once you have seleted your answer, <strong style="background-color: #17D062"> you can not change it.</strong></p>
     <p> If the answer you have choosen is correct, the button will turn green.</p>
