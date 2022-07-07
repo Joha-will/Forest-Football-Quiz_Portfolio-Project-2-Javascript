@@ -21,7 +21,7 @@ body {
 #header-container {
     width: 50%;
     margin: auto;
-    border:5px solid #777288;
+    border:5px solid #006A77;
     border-radius: 5px;
     box-shadow: 0 0 5px greenyellow;
 }
@@ -63,7 +63,7 @@ h1 {
     background-color: #777288;
     color: white;
     transform: scale(1.0) skew(20deg);
-    border:5px groove grey ;
+    border:5px solid #006A77 ;
     padding: 5px;
     margin: 16rem auto -14rem auto;
     width: 19%;
@@ -155,7 +155,7 @@ h1 {
     background-color: #777288;
     width: 80vw;
     margin: 0 auto;
-    border: 5px solid dimgray;
+    border: 5px solid #006A77;
     box-shadow: 0 0 5px greenyellow;
     opacity: 1;
 
@@ -166,7 +166,7 @@ h1 {
     width: 50rem;
     height: 35rem;
     margin: 5rem auto;
-    border: 5px solid dimgray;
+    border: 5px solid #006A77;
     border-radius: 50px;
     box-shadow: 0 0 5px greenyellow;
     opacity: 1;
@@ -195,7 +195,7 @@ h2 {
     color: white;
     background-color: #777288;
     box-shadow: 0 0 0.5px 0.5px greenyellow;
-    border: 5px solid dimgray;
+    border: 5px solid #006A77;
     border-top: none;
 
 
@@ -203,7 +203,7 @@ h2 {
 
 
 .correct {
-    background-color: greenyellow;
+    background-color: #17D062;
 }
 .incorrect {
     background-color: crimson;
@@ -224,11 +224,13 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: left;
     background-color: #777288;
     color: white;
     width: 30%;
     margin: 8rem auto 0 auto;
     border-radius: 15px;
+    
 
     
 }
@@ -237,20 +239,20 @@ h2 {
 .home-button {
     margin: o auto;
     padding: 1px 1px;
-    border: 3px solid gray;
+    border: 3px solid #006A77;
     border-radius: 15px;
     box-shadow: 0 0 5px greenyellow;
     text-decoration: none;
     font-weight: bolder;
     font-size: larger;
-    color:black;
-    background-color: greenyellow;
+    color:white;
+    background-color: #777288;
     opacity: 0.8;
 }
 
 .home-button:hover {
     font-size: larger;
-    background-color: gray;
+    background-color: lightgrey;
 }
 
 
@@ -288,7 +290,7 @@ input {
     box-shadow: 0 0 5px greenyellow;
     transform: scale(1.0) skew(20deg);
     text-align: center;
-    border: 5px solid white;
+    border: 5px solid #006A77;
 }
 
 #restart-button,
@@ -303,7 +305,7 @@ input {
     padding: 10px 0px;
     background-color: #777288;
     color: white;
-    border: 5px solid;
+    border: 5px solid #006A77;
 }
 #submit-button {
     margin: 1rem 0 -10rem 2rem;
@@ -315,7 +317,7 @@ input {
     color: white;
     background-color: #777288;
     font-size: 1rem;
-    border: 5px solid;
+    border: 5px solid #006A77;
 
 }
 
@@ -419,6 +421,14 @@ input {
 
     }
 
+    #quiz-info {
+        width: 50%;
+        margin: 3rem auto 0 auto;
+        line-height: 1;
+        
+    
+        
+    }
     
 
 }

@@ -120,28 +120,7 @@ function nextQuestion() {
         displayQuestions(quesCounter);
         nextButton.classList.add('hide');
     }else {
-        nextButton.classList.add('hide')
-        answerButtons.classList.add('hide')
-        displayScore.classList.add('hide')
-        questionContain.removeAttribute('id')
-        questionContain.innerHTML =  `
-        <div id="results-area">
-        <div id="display-results">
-        <h1><i class="fa-solid fa-face-grin"></i> You scored ${scoreCount} points <i class="fa-solid fa-face-grin"></i></h1>
-            <form id="form-results">
-                <label>Enter your name below to save your score!</label>
-                <input type="text" name="name" id="user-name" placeholder="Enter Your Name!">
-                <br>
-                <button type="submit" id="submit-button" >Submit</button>
-            </form>
-            <a href="quiz.html" id="restart-button">Play Again</a>
-            <a href="index.html" id="home-button"> Home </a>
-        
-        </div>
-        
-        </div>
-        `;
-        questionContain.classList.add('final-background')
+        finalResults()
 
     }
 }
@@ -209,4 +188,31 @@ function incrementScore() {
     scoreCount += 10;
     displayScore.innerText = 'Score: ' + scoreCount;
     
+}
+
+
+function finalResults(){
+    nextButton.classList.add('hide')
+    answerButtons.classList.add('hide')
+    displayScore.classList.add('hide')
+    questionContain.removeAttribute('id')
+    questionContain.innerHTML =  `
+    <div id="results-area">
+    <div id="display-results">
+    <h1><i class="fa-solid fa-face-grin"></i> You scored ${scoreCount} points <i class="fa-solid fa-face-grin"></i></h1>
+        <form id="form-results">
+            <label>Enter your name below to save your score!</label>
+            <input type="text" name="name" id="user-name" placeholder="Enter Your Name!">
+            <br>
+            <button type="submit" id="submit-button" >Submit</button>
+        </form>
+        <a href="quiz.html" id="restart-button">Play Again</a>
+        <a href="index.html" id="home-button"> Home </a>
+    
+    </div>
+    
+    </div>
+    `;
+    questionContain.classList.add('final-background')
+
 }
