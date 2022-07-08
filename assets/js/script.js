@@ -5,13 +5,13 @@ const textArea = document.getElementById('quiz-info');
 
 let quizInfo = `
 
-    <h2 style="text-decoration: underline;" id="how-to"> How to play </h2>
-    <p> To start the quiz, just simply click the <strong style="background-color: #17D062"> Start Quiz Button.</strong></p>
-    <p> If the answer you have choosen is correct, the button will turn green.</p>
-    <p>If the answer you have choosen is wrong, the button will turn red.</p>
-    <p> Once you have seleted your answer, <strong style="background-color: #17D062"> you can not change it.</strong></p>
+    <h2 id="how-to" class="under-line"> How to play </h2>
+    <p> To start the quiz, just simply click the <strong class="under-line"> Start Quiz Button.</strong></p>
+    <p> If the answer you have choosen is correct, <strong class="under-line">the button will turn green.</strong></p>
+    <p>If the answer you have choosen is wrong, <strong class="under-line">the button will turn red.</strong></p>
+    <p> Once you have seleted your answer, <strong class="under-line"> you can not change it.</strong></p>
     <p> Choose the answer that you think is correct.</p>
-    <p> Each correct answer is worth <strong style="background-color: #17D062"> 10 points.</strong></p>
+    <p> Each correct answer is worth <strong class="under-line"> 10 points.</strong></p>
 `;
 
 

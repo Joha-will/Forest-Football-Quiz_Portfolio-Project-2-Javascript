@@ -42,6 +42,7 @@ h1 {
     font-size: 4.4rem;
     font-weight: bolder;
     text-align: center;
+    text-decoration: dotted;
 }
 
 .center-items {
@@ -51,6 +52,10 @@ h1 {
     justify-content: center;
 }
 
+.under-line {
+    text-decoration: underline;
+    text-decoration-style: double ;
+}
 
 
 .main-buttons {
@@ -323,10 +328,6 @@ input {
 }
 
 
-
-
-
-
 #footer {
     background-color: #777288;
     width: 100vw;
@@ -369,6 +370,11 @@ input {
 .fa-brands:hover {
     font-size: 2.5rem ;
 }
+
+
+
+
+
 
 
 
@@ -533,6 +539,22 @@ input {
         width: 42%;
     }
 
+    #quiz-info {
+        width: 90%;
+        margin: 6rem auto 0 auto;
+        font-size: 1.3rem;
+        
+    }
+
+    #how-to {
+        font-size: 3.1rem;
+    }
+
+    #footer {
+        width: 100vw;
+        height: 4vh;
+    }
+
     
 }
 
@@ -558,6 +580,22 @@ input {
     #about-button {
         width: 43%;
     }
+
+    #quiz-info {
+        width: 90%;
+        margin: 4rem auto 0 auto;
+        font-size: 1.2rem;
+        
+    }
+
+    #how-to {
+        font-size: 2.9rem;
+    }
+
+    #footer {
+        width: 100vw;
+        height: 4vh;
+    }
 }
 
 
@@ -572,6 +610,17 @@ input {
     #header {
         font-size: 2.5rem;
         padding: 10px 10px;
+    }
+
+    #quiz-info {
+        width: 90%;
+        margin: 2rem auto 0 auto;
+        font-size: 1rem;
+        
+    }
+
+    #how-to {
+        font-size: 2rem;
     }
 }
 
@@ -680,6 +729,22 @@ input {
         width: 60%;
         text-align: center;
     }
+
+    #quiz-info {
+        width: 90%;
+        margin: 5.5rem auto 0 auto;
+        font-size: 0.8rem;
+        
+    }
+
+    #how-to {
+        font-size: 1rem;
+    }
+
+    #footer {
+        width: 100vw;
+        height: 4.5vh;
+    }
 }
 
 
@@ -715,6 +780,17 @@ input {
         height:26rem;
         margin: 5rem auto;
     
+    }
+
+    #quiz-info {
+        width: 90%;
+        margin: 3rem auto 0 auto;
+        font-size: 0.7rem;
+        
+    }
+
+    #how-to {
+        font-size: 1rem;
     }
 
     #footer {
