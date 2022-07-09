@@ -462,12 +462,14 @@ input {
 
     #display-questions {
         font-size: 2.2rem;
+        
     }
 
     .answer-btn {
         margin: 6rem auto -2rem auto;
         width:35%;
         font-size: medium;
+        position: relative;
     }
 
     #next-btn {
@@ -509,7 +511,7 @@ input {
     }
 
     .answer-btn {
-        margin: 2.2rem auto 0.5rem auto;
+        margin: 6.8rem auto -6rem auto;
         width:35%;
         font-size: medium;
     }
@@ -517,7 +519,7 @@ input {
     #next-btn {
         width: 20%;
         padding: 3px;
-        margin: 1rem auto;
+        margin: 7.4rem auto;
         font-size: small;
     }
 
@@ -672,13 +674,13 @@ input {
     }
 
     #score-container {
-        font-size: 2rem;
+        font-size: 1.8rem;
         width: 20%;
     }
 
 
     #display-questions {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
     .answer-btn {
@@ -717,7 +719,7 @@ input {
 }
 
 
-@media  screen and (max-width: 540px) {
+@media  screen and (max-width: 586px) {
 
     #start-button,
     #about-button {
@@ -790,7 +792,7 @@ input {
     }
 
     .answer-btn {
-        margin: 10rem auto -8rem auto;
+        margin: 9rem auto -8rem auto;
         width: 60%;
         padding: 3px;
     }
@@ -798,7 +800,7 @@ input {
     #next-btn {
         width: 40%;
         padding: 1px;
-        margin: 10rem auto;
+        margin: 9rem auto;
         font-size: medium;
     }
 
