@@ -3,10 +3,10 @@
 body {
     font-family: 'Carter One', cursive;
     padding: 0;
-    margin:0;
+    margin: 0;
     background-image: url('https://s8.gifyu.com/images/forestnewimg.jpg');
     background-repeat: no-repeat;
-    background-position: center center ;
+    background-position: center center;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -14,13 +14,10 @@ body {
 
 }
 
-
-
-
 #header-container {
     width: 50%;
     margin: auto;
-    border:5px solid #006A77;
+    border: 5px solid #006A77;
     border-radius: 5px;
     box-shadow: 0 0 5px greenyellow;
 }
@@ -33,7 +30,6 @@ h1 {
     font-weight: bolder;
     text-align: center;
 }
-
 
 #header {
     margin: 10px;
@@ -54,9 +50,8 @@ h1 {
 
 .under-line {
     text-decoration: underline;
-    text-decoration-style: double ;
+    text-decoration-style: double;
 }
-
 
 .main-buttons {
     display: flex;
@@ -68,7 +63,7 @@ h1 {
     background-color: #777288;
     color: white;
     transform: scale(1.0) skew(20deg);
-    border:5px solid #006A77 ;
+    border: 5px solid #006A77;
     padding: 5px;
     margin: 16rem auto -14rem auto;
     width: 19%;
@@ -90,10 +85,8 @@ h1 {
 
 #about-button {
     width: 20%;
-     cursor: pointer;
+    cursor: pointer;
 }
-
-
 
 #finish-button {
     background-color: crimson;
@@ -102,20 +95,13 @@ h1 {
     align-items: center;
 }
 
-
 #about-button:hover {
     background-color: lightgrey;
 }
 
-
-
-
-
 #start-button:hover {
     background-color: lightgrey;
 }
-
-
 
 .answer-btn {
     margin: 4rem auto -3rem auto;
@@ -125,8 +111,7 @@ h1 {
     padding: 0;
 }
 
-
- #next-btn {
+#next-btn {
     width: 10%;
     height: 40px;
     padding: 0;
@@ -166,7 +151,6 @@ h1 {
 
 }
 
-
 h2 {
     text-align: left;
     font-size: 2rem;
@@ -187,10 +171,11 @@ h2 {
     left: 100%;
     color: white;
     background-color: #777288;
-    box-shadow: 0 0.5px 0 0  greenyellow;
+    box-shadow: 0 0.5px 0 0 greenyellow;
     border: 5px solid #006A77;
     border-top: none;
 }
+
 #score-counter {
     font-size: 1rem;
 }
@@ -199,6 +184,7 @@ h2 {
 .correct {
     background-color: #17D062;
 }
+
 .incorrect {
     background-color: crimson;
 }
@@ -212,8 +198,6 @@ h2 {
     pointer-events: none;
 }
 
-
-
 #quiz-info {
     display: flex;
     flex-direction: column;
@@ -224,9 +208,7 @@ h2 {
     width: 30%;
     margin: 8rem auto 0 auto;
     border-radius: 15px;
-
 }
-
 
 .home-button {
     margin: o auto;
@@ -237,7 +219,7 @@ h2 {
     text-decoration: none;
     font-weight: bolder;
     font-size: larger;
-    color:white;
+    color: white;
     background-color: #777288;
     opacity: 0.8;
 }
@@ -247,7 +229,6 @@ h2 {
     background-color: lightgrey;
 }
 
-
 .final-results {
     display: flex;
     flex-direction: column;
@@ -255,9 +236,8 @@ h2 {
     align-items: center;
     margin: 10rem auto;
     text-align: center;
-    
-}
 
+}
 
 #display-results,
 #result-header {
@@ -298,6 +278,7 @@ input {
     color: white;
     border: 5px solid #006A77;
 }
+
 #submit-button {
     margin: 1rem 0 -10rem 0;
     transform: scale(1.0) skew(20deg);
@@ -320,18 +301,16 @@ input {
 
 }
 
-
 #footer {
     background-color: #777288;
     width: 100vw;
-    height:4.5vh;
+    height: 4.5vh;
     position: absolute;
+    position: fixed;
     bottom: 0;
     font-family: 'Times New Roman', Times, serif;
     color: white;
     display: flex;
-
-    
 }
 
 #copy-rights {
@@ -339,20 +318,19 @@ input {
     align-items: center;
     font-size: 10px;
     margin: 0 auto;
-    
+
 }
 
 #social-media {
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     left: 100%;
     text-decoration: none;
     list-style: none;
     color: white;
 
 }
-
 
 .fa-brands {
     color: white;
@@ -363,25 +341,21 @@ input {
 .fa-solid {
     color: greenyellow;
 }
+
 .fa-brands:hover {
-    font-size: 2.5rem ;
+    font-size: 2.5rem;
 }
 
+/** Media queries **/
 
+@media screen and (max-width: 1629px) {
 
-
-
-
-
-
-/** Media queries **/ 
-
-@media  screen and (max-width: 1629px) {
     #start-button,
     #about-button {
-        margin: 1rem auto 4rem auto ;
+        margin: 1rem auto 4rem auto;
 
     }
+
     #score-container {
         font-size: 2.2rem;
         width: 10%;
@@ -394,7 +368,7 @@ input {
 
     .answer-btn {
         margin: 10rem auto -7rem auto;
-        width:35%;
+        width: 35%;
         font-size: 2rem;
     }
 
@@ -404,10 +378,10 @@ input {
         margin: 10rem auto;
         font-size: 1.5rem;
     }
- 
+
 }
 
-@media  screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
     #start-button {
         width: 29%;
 
@@ -416,26 +390,26 @@ input {
     #about-button {
         width: 30%;
     }
+
     #start-button,
     #about-button {
-       
+
         margin: 8rem auto -3rem auto;
 
     }
 }
 
 
-@media  screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
 
     #header {
         font-size: 4.4rem;
-       
-    }
 
+    }
 
     #start-button,
     #about-button {
-       
+
         margin: 8rem auto -4rem auto;
 
     }
@@ -444,9 +418,6 @@ input {
         width: 50%;
         margin: 3rem auto 0 auto;
         line-height: 1;
-        
-    
-        
     }
 
     #score-container {
@@ -457,12 +428,12 @@ input {
 
     #display-questions {
         font-size: 2.2rem;
-        
+
     }
 
     .answer-btn {
         margin: 6rem auto -2rem auto;
-        width:35%;
+        width: 35%;
         font-size: medium;
         position: relative;
     }
@@ -476,15 +447,15 @@ input {
 }
 
 
-@media  screen and (max-width: 1030px) {
+@media screen and (max-width: 1030px) {
     #header {
         font-size: 3rem;
-       
+
     }
 
     #start-button,
     #about-button {
-        margin: 4rem auto -1rem auto ;
+        margin: 4rem auto -1rem auto;
 
     }
 
@@ -492,9 +463,9 @@ input {
         width: 50%;
         margin: 2rem auto 0 auto;
         text-align: left;
-        
+
     }
-    
+
     #score-container {
         font-size: 1.2rem;
         width: 10%;
@@ -507,7 +478,7 @@ input {
 
     .answer-btn {
         margin: 6.8rem auto -6rem auto;
-        width:35%;
+        width: 35%;
         font-size: large;
     }
 
@@ -523,15 +494,13 @@ input {
     }
 }
 
-
-
-
-@media  screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
     #header {
         font-size: 2rem;
         padding: 30px 10px;
     }
+
     #start-button,
     #about-button {
         width: 30%;
@@ -543,7 +512,6 @@ input {
         font-size: 2rem;
         width: 20%;
     }
-
 
     #display-questions {
         font-size: 2rem;
@@ -564,17 +532,17 @@ input {
         margin: 12rem auto;
         font-size: 1.3rem;
     }
+
     #about-button {
         width: 32%;
     }
-  
+
 }
 
+@media screen and (max-width: 914px) {
 
-
-@media  screen and (max-width: 914px) {
     #start-button,
-    #about-button  {
+    #about-button {
         width: 40%;
         margin: 25rem auto -20rem auto;
         font-size: 2.5rem;
@@ -584,7 +552,7 @@ input {
 
     #header {
         font-size: 3.5rem;
-       
+
     }
 
     #score-container {
@@ -621,7 +589,7 @@ input {
         width: 90%;
         margin: 6rem auto 0 auto;
         font-size: 1.3rem;
-        
+
     }
 
     #how-to {
@@ -633,10 +601,10 @@ input {
         height: 4vh;
     }
 
-    
+
 }
 
-@media  screen and (max-width: 820px) {
+@media screen and (max-width: 820px) {
     .answer-btn {
         margin: 10rem auto -7rem auto;
         width: 60%;
@@ -653,9 +621,8 @@ input {
 
 }
 
+@media screen and (max-width: 768px) {
 
-
-@media  screen and (max-width: 768px) {
     #start-button,
     #about-button {
         width: 40%;
@@ -700,7 +667,7 @@ input {
         width: 90%;
         margin: 4rem auto 0 auto;
         font-size: 1.2rem;
-        
+
     }
 
     #how-to {
@@ -714,7 +681,7 @@ input {
 }
 
 
-@media  screen and (max-width: 586px) {
+@media screen and (max-width: 586px) {
 
     #start-button,
     #about-button {
@@ -726,6 +693,7 @@ input {
         font-size: 2.5rem;
         padding: 10px 10px;
     }
+
     #score-container {
         font-size: 1.2rem;
         width: 20%;
@@ -734,7 +702,7 @@ input {
 
     #display-questions {
         font-size: 1.3rem;
-    
+
     }
 
     .answer-btn {
@@ -750,40 +718,42 @@ input {
         margin: 6rem auto;
         font-size: small;
     }
+
     #display-results h1 {
         font-size: 1.5rem;
     }
 
     .final-background {
         width: 280px;
-        height:22rem;
+        height: 22rem;
         margin: 8rem auto;
-    
+
     }
 
     #restart-button,
     #home-button {
-    margin: 1.5rem 0 -0.5rem 0;
-    width: 50%;
-    font-size: small;
-    padding: 3px 15px;
+        margin: 1.5rem 0 -0.5rem 0;
+        width: 50%;
+        font-size: small;
+        padding: 3px 15px;
     }
 
 
 
     #submit-button {
-    margin: 1rem 0rem -10rem 0;
-    width: 80%;
-    padding: 3px 25px;
-    font-size: small;
+        margin: 1rem 0rem -10rem 0;
+        width: 80%;
+        padding: 3px 25px;
+        font-size: small;
 
     }
+
     #form-results {
         font-size: 1rem;
         margin: 0;
         width: 80%;
     }
-    
+
     input {
         padding: 7px 10px;
         margin-top: 1rem;
@@ -795,7 +765,7 @@ input {
         width: 90%;
         margin: 2rem auto 0 auto;
         font-size: 1rem;
-        
+
     }
 
     #how-to {
@@ -803,13 +773,7 @@ input {
     }
 }
 
-
-
-
-
-
-
-@media  screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     #header {
         font-size: 1.6rem;
         width: 82%;
@@ -842,7 +806,7 @@ input {
 
     #start-button,
     #about-button {
-       
+
         margin: 15rem auto -12rem auto;
 
     }
@@ -853,34 +817,33 @@ input {
 
     .final-background {
         width: 280px;
-        height:22rem;
+        height: 22rem;
         margin: 8rem auto;
-    
+
     }
 
     #restart-button,
     #home-button {
-    margin: 1.5rem 0 -0.5rem 0;
-    width: 50%;
-    font-size: small;
-    padding: 3px 15px;
+        margin: 1.5rem 0 -0.5rem 0;
+        width: 50%;
+        font-size: small;
+        padding: 3px 15px;
     }
-
-
 
     #submit-button {
-    margin: 1rem 0rem -10rem 0;
-    width: 80%;
-    padding: 3px 25px;
-    font-size: small;
+        margin: 1rem 0rem -10rem 0;
+        width: 80%;
+        padding: 3px 25px;
+        font-size: small;
 
     }
+
     #form-results {
         font-size: 1rem;
         margin: 0;
         width: 80%;
     }
-    
+
     input {
         padding: 7px 10px;
         margin-top: 1rem;
@@ -888,14 +851,11 @@ input {
         margin: 0 auto;
     }
 
-    
-
-
     #quiz-info {
         width: 90%;
         margin: 8rem auto 0 auto;
         font-size: 0.8rem;
-        
+
     }
 
     #how-to {
@@ -910,7 +870,7 @@ input {
 
 
 
-@media  screen and (max-width: 393px) {
+@media screen and (max-width: 393px) {
     #header {
         font-size: 1.5rem;
         width: 80%;
@@ -943,7 +903,7 @@ input {
 
     #start-button,
     #about-button {
-       
+
         margin: 12rem auto -10rem auto;
         font-size: 1rem;
 
@@ -955,34 +915,35 @@ input {
 
     .final-background {
         width: 280px;
-        height:22rem;
+        height: 22rem;
         margin: 8rem auto;
-    
+
     }
 
     #restart-button,
     #home-button {
-    margin: 1.5rem 0 -0.5rem 0;
-    width: 50%;
-    font-size: small;
-    padding: 3px 15px;
+        margin: 1.5rem 0 -0.5rem 0;
+        width: 50%;
+        font-size: small;
+        padding: 3px 15px;
     }
 
 
 
     #submit-button {
-    margin: 1rem 0rem -10rem 0;
-    width: 80%;
-    padding: 3px 25px;
-    font-size: small;
+        margin: 1rem 0rem -10rem 0;
+        width: 80%;
+        padding: 3px 25px;
+        font-size: small;
 
     }
+
     #form-results {
         font-size: 1rem;
         margin: 0;
         width: 80%;
     }
-    
+
     input {
         padding: 6px 10px;
         margin-top: 1rem;
@@ -994,7 +955,7 @@ input {
         width: 90%;
         margin: 5.5rem auto 0 auto;
         font-size: 0.8rem;
-        
+
     }
 
     #how-to {
@@ -1010,11 +971,12 @@ input {
 
 
 
-@media  screen and (max-width: 280px) {
+@media screen and (max-width: 280px) {
     #header {
         font-size: 1rem;
         padding: 30px 5px;
     }
+
     #score-container {
         font-size: 0.7rem;
         width: 20%;
@@ -1043,7 +1005,7 @@ input {
 
     #start-button,
     #about-button {
-       
+
         margin: 8rem auto -6rem auto;
         font-size: small;
         width: 48%;
@@ -1056,16 +1018,16 @@ input {
 
     .final-background {
         width: 15rem;
-        height:26rem;
+        height: 26rem;
         margin: 5rem auto;
-    
+
     }
 
     #quiz-info {
         width: 90%;
         margin: 3rem auto 0 auto;
         font-size: 0.7rem;
-        
+
     }
 
     #how-to {
