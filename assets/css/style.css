@@ -125,7 +125,7 @@ h1 {
 
 #next-btn {
     width: 10%;
-    margin: 4rem 0 0 40rem;
+    margin: 4rem auto;
     border-radius: 100px;
     cursor: pointer;
 }
