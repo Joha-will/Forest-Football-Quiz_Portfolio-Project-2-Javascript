@@ -200,6 +200,7 @@ function finalResults(){
     answerButtons.classList.add('hide')
     displayScore.classList.add('hide')
     questionContain.removeAttribute('id')
+    document.querySelector('#score-container').classList.add('hide')
     questionContain.innerHTML =  `
     <div id="results-area">
     <div id="display-results">
