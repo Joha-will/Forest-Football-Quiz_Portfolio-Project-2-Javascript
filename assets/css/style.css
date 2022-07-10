@@ -79,7 +79,7 @@ h1 {
 
 #start-button,
 #about-button {
-    margin: 14rem auto -10rem auto;
+    margin: 4rem auto -10rem auto;
 
 }
 
@@ -405,6 +405,15 @@ input {
         font-size: 1.5rem;
     }
 
+}
+
+@media screen and (max-width: 1595px) {
+    #start-button,
+    #about-button {
+
+        margin: 16rem auto -12rem auto;
+
+    }
 }
 
 @media screen and (max-width: 1400px) {

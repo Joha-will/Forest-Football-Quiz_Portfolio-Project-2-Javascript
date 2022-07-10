@@ -14,7 +14,6 @@ const questions = [
         option3: 'Carabao Cup Final',
         answer: 'European Cup Final',
     },
-    /*
     {
         question: 'What year did Steve Cooper take over as Nottingham Forest manager?',
         option1: '1993',
@@ -22,6 +21,7 @@ const questions = [
         option3: '2021',
         answer: '2021',
     },
+    /** 
     {
         question: 'How many years did Brian Clough manage Nottingham Forest?',
         option1: '8',
@@ -72,29 +72,26 @@ const questions = [
         option2: 'Changy the Elephant',
         option3: 'Lucas the Kop Kat',
         answer: 'Robin Hood',
-    }, */
+    },**/
 
 ];
 
 // Getting elements from the DOM and assigning them to variables
 
 const questionContain = document.getElementById('question-container');
-const answerButtons = document.getElementById('get-buttons')
+const answerButtons = document.getElementById('get-buttons');
 const displayScore = document.querySelector('#score-counter');
 let nextButton = document.getElementById('next-btn');
-let formResults = document.querySelector('#form-results')
+let theButtons = document.querySelectorAll('.answer-btn');
 
 
 
-
-// Variables created to use within the functions
 let scoreCount = 0;
 let quesCounter = 0;
 let randomQuestion;
 let highScore = [];
 
 
-// Adding Eventlisteners
 document.addEventListener('DOMContentLoaded', startQuiz());
 nextButton.addEventListener('click', nextQuestion);
 
@@ -102,12 +99,12 @@ nextButton.addEventListener('click', nextQuestion);
 
 
 
-// Functions to play and control the quiz game
+
 /**
  * The start quiz function shuffles the array of questions and then display it to users of the quiz.
  */
 function startQuiz(){
-    randomQuestion = questions.sort(() => Math.random() - .5);
+    randomQuestion = questions.sort(() => Math.random() - 0.5);
     displayQuestions(0);
 }
 
@@ -124,7 +121,7 @@ function nextQuestion() {
         displayQuestions(quesCounter);
         nextButton.classList.add('hide');
     }else {
-        finalResults()
+        finalResults();
 
     }
 }
@@ -144,14 +141,14 @@ function displayQuestions(index) {
     `;
     questionContain.innerHTML = askedQuestions;
     let ListOfBtn = `
-    <button type="button" class="answer-btn main-buttons" data-number="1">${questions[index].option1}</button>
-    <button type="button" class="answer-btn main-buttons" data-number="2">${questions[index].option2}</button>
-    <button type="button" class="answer-btn main-buttons" data-number="3">${questions[index].option3}</button>
+    <button type="button" class="answer-btn main-buttons">${questions[index].option1}</button>
+    <button type="button" class="answer-btn main-buttons">${questions[index].option2}</button>
+    <button type="button" class="answer-btn main-buttons">${questions[index].option3}</button>
     `;
     answerButtons.innerHTML = ListOfBtn;
-    theButtons = document.querySelectorAll('.answer-btn');
+    let theButtons = document.querySelectorAll('.answer-btn');
     for (let i = 0; i < theButtons.length; i++) {
-        theButtons[i].setAttribute('onClick', "checkAnswer(this)")
+        theButtons[i].setAttribute('onClick', "checkAnswer(this)");
     }
 
 
@@ -167,40 +164,39 @@ function checkAnswer(answer) {
     let userChoice = answer.textContent;
     let correctAnswer = questions[quesCounter].answer;
     if (userChoice === correctAnswer) {
-        answer.classList.add('correct')
-        nextButton.classList.remove('hide')
+        answer.classList.add('correct');
+        nextButton.classList.remove('hide');
         incrementScore();
-        console.log('you are right')
     } else {
-        answer.classList.add('incorrect')
-        nextButton.classList.remove('hide')
-        console.log('it is wrong')
+        answer.classList.add('incorrect');
+        nextButton.classList.remove('hide');
     }
     for (let i = 0; i < theButtons.length; i++) {
         theButtons[i].classList.add('disable-pointer');
     }
-
-    };  
-
+}
 
 
 
-    /**
-     * This function adds 10 points to score count everytime the user selects the correct answer.
-     */
+/**
+* This function adds 10 points to score count everytime the user selects the correct answer.
+*/
 function incrementScore() {
     scoreCount += 10;
     displayScore.innerText = 'Score: ' + scoreCount;
     
 }
 
-
+/**
+ * When this function gets run, it hides the buttons and the score display and 
+ * displays the user results and create a form field for users to save their high scores
+ */
 function finalResults(){
-    nextButton.classList.add('hide')
-    answerButtons.classList.add('hide')
-    displayScore.classList.add('hide')
-    questionContain.removeAttribute('id')
-    document.querySelector('#score-container').classList.add('hide')
+    nextButton.classList.add('hide');
+    answerButtons.classList.add('hide');
+    displayScore.classList.add('hide');
+    questionContain.removeAttribute('id');
+    document.querySelector('#score-container').classList.add('hide');
     questionContain.innerHTML =  `
     <div id="results-area">
     <div id="display-results">
@@ -218,17 +214,23 @@ function finalResults(){
     
     </div>
     `;
-    questionContain.classList.add('final-background')
+    questionContain.classList.add('final-background');
 
 }
 
-
+/**
+ * This function stops form from being submitted, and get's the value that's entered in the input element.
+ * Then it checks if the value that was entered is 5 or more characters.
+ * If it is the required amount of characters, the value is then push into an array, which would 
+ * then be display to the user on the highscore list.
+ * If the value enter does not meet the required amount of characters, then a alert box with pop stating the requirements.
+ */
 function saveName(e) {
-    e.preventDefault()
+    e.preventDefault();
 
     let nameCount = 1;
-    let userName = document.getElementById('username').value
-    highScore.push(userName)
+    let userName = document.getElementById('username').value;
+    highScore.push(userName);
 
     for (let i = 0; i < highScore.length; ++i) {
         let scoreList = `
@@ -237,19 +239,14 @@ function saveName(e) {
             <p>${nameCount }. ${ highScore[i]} - ${scoreCount} Points</p>
             <a href="quiz.html" id="restart-button">Play Again</a>
             <a href="index.html" id="home-button" > Home </a>
-        </div>`
+        </div>`;
 
     if (userName.length < 5){
-            alert('Your username is too short! Must be 5 or more characters')
+            alert('Your username is too short! Must be 5 or more characters');
     
     } else {
-            console.log('username successful!')
-            questionContain.innerHTML = scoreList
+            questionContain.innerHTML = scoreList;
     }
-    
-            
-        console.log(scoreList)   
-
     
     }
 
@@ -258,3 +255,5 @@ function saveName(e) {
 }
 
 
+checkAnswer();
+saveName();

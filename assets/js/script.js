@@ -1,6 +1,6 @@
-// // Getting elements from the DOM and assigning them to variables
+// Getting elements from the DOM and assigning them to variables
 const aboutButton = document.getElementById('about-button');
-const mainButtons = document.querySelector('#two-buttons');
+let mainButtons = document.querySelector('#two-buttons');
 const textArea = document.getElementById('quiz-info');
 
 let quizInfo = `
@@ -15,19 +15,19 @@ let quizInfo = `
 `;
 
 
-// List of EventListeners 
-aboutButton.addEventListener('click', aboutQuiz, );
+
+aboutButton.addEventListener('click', aboutQuiz);
 
 
 
-// Functions for the quiz games
+
 
 /**
  *  When the about buttons is clicked, it triggers this function which removes the start and about button and displays a how to play text.
  */
 function aboutQuiz() {
-    removeButtons()
-    textArea.classList.add('hide')
+    removeButtons();
+    textArea.classList.add('hide');
     const homeButton = document.createElement('a');
     const homeButtonText = document.createTextNode('Home');
     textArea.innerHTML = quizInfo;
@@ -35,9 +35,10 @@ function aboutQuiz() {
     homeButton.append(homeButtonText);
     homeButton.setAttribute('class', 'home-button');
     homeButton.setAttribute('href', './index.html');
-    console.log('click')
 }
-
+/**
+ * This function removes the start and about buttons when its called.
+ */
 function removeButtons() {
     mainButtons.remove();
 }
