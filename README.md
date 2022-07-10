@@ -106,21 +106,64 @@ I hope you enjoy the quiz!
 The W3C Markup Validator, W3C CSS Validator services and JS Hint were used to validate every page of the project to ensure that were no errors, warnings or potential problems within the project.
 
 **W3C Markup Validator results**
-- [index html results]()
-- [W3C CSS Validator - Results]()
+- [Index HTML results](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/5edddbabeb5c4393a656b4b25eec1254cd898592/assets/images/htmlvalidatorresults.png)
+- [quiz HTML results](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/5edddbabeb5c4393a656b4b25eec1254cd898592/assets/images/htmlvalidatorresults2.png)
+
+**W3C CSS Validator results**
+- [CSS results](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/5edddbabeb5c4393a656b4b25eec1254cd898592/assets/images/cssresults.png)
+
+**JS Hint results**
+- [Quiz JS results](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/5edddbabeb5c4393a656b4b25eec1254cd898592/assets/images/jshintresults.png)
+- [Script JS results](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/5edddbabeb5c4393a656b4b25eec1254cd898592/assets/images/jshintresults1.png)
+
+I used the W3C Markup validator and W3C CSS validator as shown above and all errors and warnings were rectified.
+
+I used JS Hint as shown above to check my Javascript code and all errors and problems were rectified.]
+
+### **Testing User Stories**
 
 
 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**Furthing Testing**
 
-`python3 -m http.server`
+I used Chrome developer tools to test the responsiveness of the quiz as well as testing it on different web browsers like Firefox, Google Chrome, Safari and Opera.
+The quiz was viewed a several different devices such as:
 
-A blue button should appear to click: _Make Public_,
+- Desktop
+- Laptop
+- Iphone SE
+- Iphone XR
+- Iphone 12 Pro
+- Pixel 5
+- Samsung Galaxy 8+
+- Samsung Galaxy S20 Ultra
+- Ipad Air
+- Ipad Mini 
+- Surface Pro 7
+- Surface Duo 
+- Galaxy Fold
+- Samsung Galaxy A51/71
+- Nest Hub
+- Nest Hub Max
+- Iphone 6/7/8
+- Iphone 6/7/8 Plus
+- Iphone X
+- Ipad
+- Ipad Pro
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### **Bugs and Errors found**
+
+**HTML Errors and Warnings **
+
+- [HTML error and warning screenShot]()
+
+### **JS Hint Errors and Problems**
+
+- [Quiz JS errors and problems screenshot]()
+- [Script JS errors and problems screenshot]()
+
 
 ------
 
