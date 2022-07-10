@@ -20,13 +20,53 @@ I hope you enjoy the quiz!
 
 ## **User Experience (UX)**
 
+
+### **Creator Stories**
+
+- ### Creator Goals
+    - As a creator, I want the project to be accessible, fun and easy to play. 
+
+    - As a creator, I want to create a football quiz as a celebration to their promotion to the Premier League. 
+
+    - As a creator, I want to create a visually impressive quiz maintaining a football theme throughout. 
+
+    Once creator goals have been set on what I want to accomplish with the quiz I set out to obtain relevant information through researching the football club history and achievements. 
+
+
+
 ### **User Stories**
 
 - ### First time visitors goals
-    - 
+    - When visiting the quiz as a first time visitor, I want to see relevant pictures and themes that relate to the quiz topic, Nottingham Forest and football. So I have implemented a photo of the current football team as the background and football icons. I also want to have a clear understanding of how to play the quiz. I have implemented an about the quiz button, which gives instruction on how to play the quiz.
+    
+    - As a first time visitor, I want to easily navigate around the quiz without any difficulty. 
+
+    - As a first time visitor, I want to be able to easily find information about the quiz through social media links. I have placed these links at the bottom left of the page so they are easily found.
+
+- ### Returning visitors goals
+    - As a returning visitor, I want to find out about updates relating to the quiz. This can be found through the social media links, which are also used a point of contact.
+
+- ### Frequent user goals
+    - As a returning visitor, I would like to see visual changes and updates to the quiz content. For example the background image to be updated to the current Nottingham Forest football team.
+
+
+### **Design**
+
+- ### Colour Scheme 
+    - The two main colours used were red and white as those are the colours of Nottingham Forest football kit and emblem.
+
+- ### Typography 
+    - I originally tried to use the offical Nottingham Forest emblem font however, this did not work because I could not find the font on Google fonts. Therefore, I chose the most simular looking font.
+
+- ### Imagery 
+    - I implemented a background image of the current Nottingham Forest football team to the body of the quiz.
+
+- ### Wireframes
 
 
 
+## **Features**
+---
 ## **Technologies Used**
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
@@ -46,8 +86,27 @@ I hope you enjoy the quiz!
     This was one of the most used tool throughout the development of this project, as it can be used for tasks like testing, debugging and showing where elements are positioned on the web page.
 - [Gitpod](https://gitpod.io/)
     - This was the development environment used to build this project.
-- 
+- [Git](https://git-scm.com/)
+    - This is a version control system which I used to handle my project throughout the development stages, to save and push my work from gitpod to github.
+- [Github](http://github.com/)
+    - This was used to store my project after it was saved and pushed from gitpod.
+- [Balsamiq](https://balsamiq.cloud/)
+    - This was used to create wireframes for the planning and development of my project.
+- [HTML Validator](https://validator.w3.org/#validate_by_uri)
+    - This was used to check my HTML for errors and warnings.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - This was used to check my CSS for any errors and warnings.
+- [JS Hint](https://jshint.com/)
+    - This was used to detect errors and any potenial problems in my Javascript code.
 
+---
+
+## **Testing**
+
+The W3C Markup Validator, W3C CSS Validator services and JS Hint were used to validate every page of the project to ensure that were no errors, warnings or potential problems within the project.
+
+- [W3C Markup Validator - Results]()
+- [W3C CSS Validator - Results]()
 
 
 
@@ -61,22 +120,6 @@ A blue button should appear to click: _Make Public_,
 Another blue button should appear to click: _Open Browser_.
 
 To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
 ------
 

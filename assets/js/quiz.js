@@ -200,7 +200,7 @@ function finalResults(){
     questionContain.innerHTML =  `
     <div id="results-area">
     <div id="display-results">
-    <h1><i class="fa-solid fa-face-grin"></i> You scored ${scoreCount} points <i class="fa-solid fa-face-grin"></i></h1>
+    <h1><i class="fa-regular fa-futbol"></i>You scored ${scoreCount} points <i class="fa-regular fa-futbol"></i></h1>
         <form id="form-results" action="/" onsubmit="saveName(event);">
             <label>Enter your name below to save your score!</label>
             <input type="text" name="name" id="username" placeholder="Enter Your Name!">
