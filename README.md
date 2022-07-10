@@ -105,7 +105,8 @@ I hope you enjoy the quiz!
 
 The W3C Markup Validator, W3C CSS Validator services and JS Hint were used to validate every page of the project to ensure that were no errors, warnings or potential problems within the project.
 
-- [W3C Markup Validator - Results]()
+**W3C Markup Validator results**
+- [index html results]()
 - [W3C CSS Validator - Results]()
 
 
