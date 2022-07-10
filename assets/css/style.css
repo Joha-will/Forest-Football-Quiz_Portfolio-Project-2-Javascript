@@ -4,7 +4,7 @@ body {
     font-family: 'Carter One', cursive;
     padding: 0;
     margin: 0;
-    background-image: url('https://s8.gifyu.com/images/forestnewimg.jpg');
+    background-image: url('https://s8.gifyu.com/images/Screenshot-2022-06-29-at-18.51.375729924366c42e2c.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -50,7 +50,7 @@ h1 {
 
 .under-line {
     text-decoration: underline;
-    text-decoration-style: double;
+    text-decoration-style:solid;
 }
 
 .main-buttons {
@@ -124,6 +124,10 @@ h1 {
     background-color: lightgrey;
 }
 
+.form-buttons:hover {
+    background-color: lightgrey;
+}
+
 #main-container {
     display: flex;
     flex-direction: column;
@@ -166,7 +170,6 @@ h2 {
 }
 
 #score-container {
-
     width: 40%;
     left: 100%;
     color: white;
@@ -177,7 +180,7 @@ h2 {
 }
 
 #score-counter {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 
@@ -202,16 +205,22 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;
+    text-align:  center;
+    font-size: small;
     background-color: #777288;
     color: white;
     width: 30%;
-    margin: 8rem auto 0 auto;
+    margin: 1rem auto 0 auto;
     border-radius: 15px;
+
+}
+
+#how-to {
+    font-size: 1.5rem;
 }
 
 .home-button {
-    margin: o auto;
+    margin:  auto;
     padding: 1px 1px;
     border: 3px solid #006A77;
     border-radius: 15px;
@@ -294,6 +303,16 @@ input {
 
 }
 
+#submit-button:hover {
+    background-color: lightgrey;
+}
+#home-button:hover {
+    background-color: lightgrey;
+}
+#restart-button:hover {
+    background-color: lightgrey;
+}
+
 #high-score {
     text-decoration: underline;
     text-align: center;
@@ -301,14 +320,16 @@ input {
 
 }
 
+
+
 #footer {
     background-color: #777288;
     width: 100vw;
-    height: 4.5vh;
+    height: 5vh;
     position: absolute;
     position: fixed;
     bottom: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Carter One', cursive;
     color: white;
     display: flex;
 }
@@ -332,10 +353,15 @@ input {
 
 }
 
+#social-media p {
+    margin: 0 5px;
+    border: #17D062;
+}
+
 .fa-brands {
     color: white;
     font-size: 2rem;
-    box-shadow: 0 0 5px greenyellow;
+
 }
 
 .fa-solid {

@@ -212,7 +212,7 @@ function finalResults(){
             <button type="submit" id="submit-button" value="Submit"> Save</button>
         </form>
         <a href="quiz.html" id="restart-button">Play Again</a>
-        <a href="index.html" id="home-button" > Home </a>
+        <a href="index.html" id="home-button"> Home </a>
     
     </div>
     
