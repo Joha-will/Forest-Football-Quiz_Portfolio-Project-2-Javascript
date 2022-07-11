@@ -68,6 +68,18 @@ I hope you enjoy the quiz!
 
 
 ## **Features**
+
+This Nottingham Forest quiz app is overall responsive across several different screen resolutions as I have implemented the relevant CSS style for it to adjust accordingly. The elements are interactive as the with the webpage. 
+
+- The quiz app has a main heading which is located on the main page. This can be viewed by clicking the link [View heading]().
+- The quiz app has a Start Quiz and an About Quiz buttons which is located on the main page. This can be viewed by clicking the link [View main buttons]().
+- The quiz app has social media links located on the main page.This can be viewed by clicking the link [View Image]().
+- The quiz app has a question bar where the question for the quiz gets displayed. This can be viewed by clicking the link [View Image]().
+- The quiz app has a score bar where the points for the quiz gets displayed when users get an answer correct. This can be viewed by clicking the link [View Image]().
+
+
+
+
 ---
 ## **Technologies Used**
 
@@ -128,16 +140,20 @@ I used JS Hint as shown above to check my Javascript code and all errors and pro
 
 - When visiting the quiz as a first time visitor, I want to see relevant pictures and themes that relate to the quiz topic, Nottingham Forest and football.
     1. I have implemented a photo of the current football team as the background. This can be viewed by clicking the link [View Photo](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/8d706ac4c3a243494677f100736d6ae3876f2da7/assets/images/forestbackground.png)
-    2. Football icons were added to the final results page. This can be viewed by clicking the link [View Screenshot]().
+    2. Football icons were added to the final results page. This can be viewed by clicking the link [View Screenshot](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/0c1af196c7e5eac82a59f759dbfb9789ae81b1f1/assets/images/footballicons.png).
+
 
 - As a first time visitor, I want to have a clear understanding of how to play the quiz.
-    1. I have implemented an about the quiz button, which gives instruction on how to play the quiz. This can be viewed by clicking the link [View Screenshot]()
+    1. I have implemented an about the quiz button, which gives instruction on how to play the quiz. This can be viewed by clicking the link [View Screenshot](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/0c1af196c7e5eac82a59f759dbfb9789ae81b1f1/assets/images/aboutquiztext.png)
+
 
 - As a first time visitor, I want to easily navigate around the quiz without any difficulty. 
-    1. The buttons in the quiz is all that is needed to navigate around the quiz. This can be viewed by clicking the link [View Screenshots]()
+    1. The buttons in the quiz is all that is needed to navigate around the quiz. This can be viewed by clicking the link [View Screenshots](https://github.com/Joha-will/Portfolio-Project-2-Javascript-Essentials/blob/main/documentation/buttons.md)
+
 
 - As a first time visitor, I want to be able to easily find information about the quiz through social media links.
-    1.  I have placed social media links at the bottom left of the page so they are easily found. This can be viewed by clicking the link [View Screenshot]()
+    1.  I have placed social media links at the bottom left of the page so they are easily found. This can be viewed by clicking the link [View Screenshot](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/0c1af196c7e5eac82a59f759dbfb9789ae81b1f1/assets/images/socialmedia.png)
+
 
 ### Returning visitors goals
 
