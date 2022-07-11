@@ -58,7 +58,7 @@ I hope you enjoy the quiz!
     - The two main colours used were red and white as those are the colours of Nottingham Forest football kit and emblem.
 
 - ### Typography 
-    - I originally tried to use the offical Nottingham Forest emblem font however, this did not work because I could not find the font on Google fonts. Therefore, I chose the most simular looking font.
+    - I originally tried to use the offical Nottingham Forest emblem font however, this did not work because I could not find the font on Google fonts. Therefore, I chose the most similar looking font.
 
 - ### Imagery 
     - I implemented a background image of the current Nottingham Forest football team to the body of the quiz.
@@ -73,9 +73,20 @@ This Nottingham Forest quiz app is overall responsive across several different s
 
 - The quiz app has a main heading which is located on the main page. This can be viewed by clicking the link [View heading]().
 - The quiz app has a Start Quiz and an About Quiz buttons which is located on the main page. This can be viewed by clicking the link [View main buttons]().
-- The quiz app has social media links located on the main page.This can be viewed by clicking the link [View Image]().
-- The quiz app has a question bar where the question for the quiz gets displayed. This can be viewed by clicking the link [View Image]().
-- The quiz app has a score bar where the points for the quiz gets displayed when users get an answer correct. This can be viewed by clicking the link [View Image]().
+- The quiz app has social media links located on the main page. This can be viewed by clicking the link [View Image]().
+- The quiz app has a question bar where the question for the quiz gets displayed.It is located on the quiz page. This can be viewed by clicking the link [View Image]().
+- The quiz app has a score bar where the points for the quiz gets displayed when users get an answer correct. It is located on the quiz page. This can be viewed by clicking the link [View Image]().
+- The quiz app has answer buttons which displays the answers for each question.It is located on the quiz page. This can be viewed by clicking the link [View Image]()
+- The quiz app has a final score header that displays the final score of the quiz. It is located on the final page. This can be viewed by clicking the link [View Image]()
+- The quiz app has a form with an input field for users to enter their names to be saved to the highscores list. It also has three buttons. A save button which submit's the user name to the highscores list when clicked. There is a play again button which restarts the quiz when clicked and a home button which take you back to the home page.  These are located on the final page. These can be viewed by clicking the link [View Image]()
+
+
+
+
+
+
+
+
 
 
 
