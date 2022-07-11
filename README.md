@@ -152,10 +152,20 @@ The quiz was viewed a several different devices such as:
 - Ipad
 - Ipad Pro
 
+**Lighthouse report**
+
+I used the Google Lighthouse to check my project's performance, accessibility and user experience. The initial check results came back at 91 for overall performance which is shown in the screenshot below.
+- [Lighthouse initial results](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/ccfb78205ae830d9e10caa1e59db4d5e989dd332/assets/images/lighthouseresults.png)
+
+I then improved the performance by removing the link to the background image I had in the style.css file and used my own photo which was looked in the images folder. This increased the performance alot. I also added meta tags with a name and content attribute to the head element of the index.html file which took the Search Engine Optimization to 100. After making those changes, this then took the overall performance to 97 for desktop and 94 for mobile which can be viewed in the screenshots below.
+- [Lighthouse Desktop results]()
+- [Lighthouse Mobile results]()
+
+
 
 ### **Bugs and Errors found**
 
-**HTML Errors and Warnings **
+**HTML Errors and Warnings**
 
 - [HTML error and warning screenShot](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/c3f62c760e3fa0cf2647017f8528ffb72b02b1f1/assets/images/htmlerrors.png)
 
