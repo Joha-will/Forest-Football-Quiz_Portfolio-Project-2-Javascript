@@ -157,83 +157,22 @@ The quiz was viewed a several different devices such as:
 
 **HTML Errors and Warnings **
 
-- [HTML error and warning screenShot]()
+- [HTML error and warning screenShot](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/c3f62c760e3fa0cf2647017f8528ffb72b02b1f1/assets/images/htmlerrors.png)
+
+The errors and warnings I encountered when validating my HTML page was rectified. The first warning I had was rectified by changing the section element to a div element as adviced by the W3C MarkUp Validator. I encountered this warning as my section element did not have a heading.
+
+I also encountered two errors which came from the unordered list element in my footer element. I rectified this by completely removing the unordered list element and adding a div element with three paragraph elements. I then placed the anchor tags inside the paragraph elements. I encountered these errors because text was not allowed in unordered list element in the context I had it, as stated by the W3C MarkUp validator.
 
 ### **JS Hint Errors and Problems**
 
-- [Quiz JS errors and problems screenshot]()
-- [Script JS errors and problems screenshot]()
+- [Quiz JS errors and problems screenshot](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/c3f62c760e3fa0cf2647017f8528ffb72b02b1f1/assets/images/jshinterrorstwo.png)
+
+As shown in the screenshot above, most of the warnings that came for the quiz JS file was caused by missing semicolons and there was a unecessary semicolon, which was easily rectified by removing and adding semicolons. There were others like the warning on ling 109 where there was no zero infront of the decimal point and this was rectified by adding a zero. On line 151-152, there was an undefined variable as shown in the screenshot, which I rectified by declaring the variable globally. I also had an unused variable and a unused function. I removed the unused varible as it was not needed and the function I called at the end of the quiz JS file.
+
+- [Script JS errors and problems screenshot](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/c3f62c760e3fa0cf2647017f8528ffb72b02b1f1/assets/images/jshinterrors.png)
+
+As shown in the screenshot above, most of the warnings that came for the script JS file was caused by missing semicolons which was rectified by adding the missing semicolons. The other warnings were flaged up because the New JavaScript features (ES6) was not configured. After being configured those warnings were rectified.
 
 
 ------
 
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
