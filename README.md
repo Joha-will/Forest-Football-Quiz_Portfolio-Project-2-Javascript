@@ -37,17 +37,19 @@ I hope you enjoy the quiz!
 ### **User Stories**
 
 - ### First time visitors goals
-    - When visiting the quiz as a first time visitor, I want to see relevant pictures and themes that relate to the quiz topic, Nottingham Forest and football. So I have implemented a photo of the current football team as the background and football icons. I also want to have a clear understanding of how to play the quiz. I have implemented an about the quiz button, which gives instruction on how to play the quiz.
+    - When visiting the quiz as a first time visitor, I want to see relevant pictures and themes that relate to the quiz topic, Nottingham Forest and football.  
+    
+    - As a first time visitoor, I also want to have a clear understanding of how to play the quiz. 
     
     - As a first time visitor, I want to easily navigate around the quiz without any difficulty. 
 
-    - As a first time visitor, I want to be able to easily find information about the quiz through social media links. I have placed these links at the bottom left of the page so they are easily found.
+    - As a first time visitor, I want to be able to easily find information about the quiz through social media links.
 
 - ### Returning visitors goals
-    - As a returning visitor, I want to find out about updates relating to the quiz. This can be found through the social media links, which are also used a point of contact.
+    - As a returning visitor, I want to find out about updates relating to the quiz.
 
 - ### Frequent user goals
-    - As a returning visitor, I would like to see visual changes and updates to the quiz content. For example the background image to be updated to the current Nottingham Forest football team.
+    - As a frequent visitor, I would like to see visual changes and updates to the quiz content. 
 
 
 ### **Design**
@@ -122,6 +124,36 @@ I used JS Hint as shown above to check my Javascript code and all errors and pro
 
 ### **Testing User Stories**
 
+### First time visitors goals
+
+- When visiting the quiz as a first time visitor, I want to see relevant pictures and themes that relate to the quiz topic, Nottingham Forest and football.
+    1. I have implemented a photo of the current football team as the background. This can be viewed by clicking the link [View Photo](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/8d706ac4c3a243494677f100736d6ae3876f2da7/assets/images/forestbackground.png)
+    2. Football icons were added to the final results page. This can be viewed by clicking the link [View Screenshot]().
+
+- As a first time visitor, I want to have a clear understanding of how to play the quiz.
+    1. I have implemented an about the quiz button, which gives instruction on how to play the quiz. This can be viewed by clicking the link [View Screenshot]()
+
+- As a first time visitor, I want to easily navigate around the quiz without any difficulty. 
+    1. The buttons in the quiz is all that is needed to navigate around the quiz. This can be viewed by clicking the link [View Screenshots]()
+
+- As a first time visitor, I want to be able to easily find information about the quiz through social media links.
+    1.  I have placed social media links at the bottom left of the page so they are easily found. This can be viewed by clicking the link [View Screenshot]()
+
+### Returning visitors goals
+
+- As a returning visitor, I want to find out about updates relating to the quiz.
+    1.  This can be found through the social media links, which are also used a point of contact.
+
+### Frequent user goals
+
+ - As a frequent visitor, I would like to see visual changes and updates to the quiz content.
+    1. For future developments, an example of this would be the background image to be updated to the current Nottingham Forest football team.
+
+
+
+
+
+
 
 
 
@@ -154,16 +186,18 @@ The quiz was viewed a several different devices such as:
 
 **Lighthouse report**
 
-I used the Google Lighthouse to check my project's performance, accessibility and user experience. The initial check results came back at 91 for overall performance which is shown in the screenshot below.
+I used the Google Lighthouse to check my project's performance, accessibility and user experience. The initial check results came back at 91 for overall performance which can be viewed by clicking the link below.
 - [Lighthouse initial results](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/ccfb78205ae830d9e10caa1e59db4d5e989dd332/assets/images/lighthouseresults.png)
 
-I then improved the performance by removing the link to the background image I had in the style.css file and used my own photo which was looked in the images folder. This increased the performance alot. I also added meta tags with a name and content attribute to the head element of the index.html file which took the Search Engine Optimization to 100. After making those changes, this then took the overall performance to 97 for desktop and 94 for mobile which can be viewed in the screenshots below.
-- [Lighthouse Desktop results]()
-- [Lighthouse Mobile results]()
+I then improved the performance by removing the link to the background image I had in the style.css file and used my own photo which was looked in the images folder. This increased the performance alot. I also added meta tags with a name and content attribute to the head element of the index.html file which took the Search Engine Optimization to 100. After making those changes, this then took the overall performance to 97 for desktop and 94 for mobile which can be viewed by clicking the links below.
+- [Lighthouse Desktop results](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/8d706ac4c3a243494677f100736d6ae3876f2da7/assets/images/lighthouseresultpc.png)
+- [Lighthouse Mobile results](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/8d706ac4c3a243494677f100736d6ae3876f2da7/assets/images/lighthouseresultsmobile.png)
 
 
 
 ### **Bugs and Errors found**
+
+
 
 **HTML Errors and Warnings**
 
@@ -185,4 +219,63 @@ As shown in the screenshot above, most of the warnings that came for the script 
 
 
 ------
+
+
+## **Deployment**
+
+
+ ### GitHub Pages
+
+ The project was deployed to GitHub Pages using the following steps,
+
+1. Log in to GitHub and local the GitHub repository.
+2. At the top of repository (top of the page), locate the "settings" button in the horizontal menu.
+3. On the left side of the page in the vertical menu, locate "Pages" button.
+4. Under "source", click the dropdown called "None" and select "main", then click the "save" button.
+5. The page will automatically refresh.
+6. After the page refreshes, a link to your published site should be above "source" in a green box.
+
+
+#### **Forking the GitHub Repository**
+By forking a GitHub repository you can make a copy of the original repository to your own GitHub account to view and make changes without making any changes to the original repository.
+
+1. Log in to GitHub and local the GitHub repository.
+2. At the top right of the page, locate "fork button" which is just below the bell icon.
+3. You should now have a copy of the original repository in your GitHub account.
+
+
+---
+
+## **Credits**
+
+ ### Code 
+
+ During some stages of the development of this project, I watched Youtube tutorials to help me understand some of the Javascript concepts better which was helpful and educational. Some code was used from the video links below to help me to get functions working as I wanted to.
+
+- [CodingNepal](https://www.youtube.com/watch?v=WUBhpSRS_fk&t=1339s&ab_channel=CodingNepal)
+- [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified)
+- [Code with Ania Kubów](https://www.youtube.com/watch?v=zgHim4ZDpZY&t=43s&ab_channel=CodewithAniaKub%C3%B3w)
+- [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3098s&ab_channel=BrianDesign)
+
+These online resources was really helpful when I needed refamiliarize myself with a specific topic or syntax. They were really education as well.
+
+- [Code Institute](https://codeinstitute.net/)
+- [Developer Mozilla](https://developer.mozilla.org/en-US/)
+- [W3Schools](https://www.w3schools.com/default.asp)
+- [StackOverFlow](https://stackoverflow.com/)
+
+
+ ### Acknowledgments
+
+ - Harry Dhillon
+Thank you to my mentor for his time and advice he has given to me over the development stages of this project. It was really helpful!
+
+- Code Institute 
+Thank you for the support and help.
+
+Finally, thank you for viewing this project and I hope you enjoy the quiz!
+---
+
+---
+
 
