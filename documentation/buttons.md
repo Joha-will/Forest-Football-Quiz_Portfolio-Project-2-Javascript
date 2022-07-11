@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 **Home Button**
 
 <img width="111" alt="socialmedia 22 50 02" src="https://user-images.githubusercontent.com/98041941/178366290-97359b2f-30e8-4312-b53a-a77e5f49c4e0.png">
@@ -17,5 +16,4 @@
 **Final Results Buttons**
 
 <img width="777" alt="resultsbuttons" src="https://user-images.githubusercontent.com/98041941/178366179-0385273f-3fa3-4aa0-824f-4a4be1267aa6.png">
->>>>>>> 86a2c601dfab66d8aaea29719439d4c22e3c35c5
-good stuff
+

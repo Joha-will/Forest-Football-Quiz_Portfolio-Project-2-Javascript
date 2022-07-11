@@ -1,5 +1,18 @@
 # **Forest Football Quiz** 
 
+## **Table of Contents**
+
+- [Introduction](https://github.com/Joha-will/Portfolio-Project-2-Javascript-Essentials#introduction)
+- [User Experience (UX)](https://github.com/Joha-will/Portfolio-Project-2-Javascript-Essentials#user-experience-ux)
+- [Design](https://github.com/Joha-will/Portfolio-Project-2-Javascript-Essentials#design)
+- [Features](https://github.com/Joha-will/Portfolio-Project-2-Javascript-Essentials#features)
+- [Technologies Used](https://github.com/Joha-will/Portfolio-Project-2-Javascript-Essentials#technologies-used)
+- [Testing](https://github.com/Joha-will/Portfolio-Project-2-Javascript-Essentials#testing)
+- [Deployment](https://github.com/Joha-will/Portfolio-Project-2-Javascript-Essentials#deployment)
+- [Credits](https://github.com/Joha-will/Portfolio-Project-2-Javascript-Essentials#credits)
+---
+
+
 
 ## **Introduction**
 Welcome to my second project, a general knowledge quiz app on Nottingham Forest Football club. 
@@ -51,8 +64,8 @@ I hope you enjoy the quiz!
 - ### Frequent user goals
     - As a frequent visitor, I would like to see visual changes and updates to the quiz content. 
 
-
-### **Design**
+---
+## **Design**
 
 - ### Colour Scheme 
     - The two main colours used were red and white as those are the colours of Nottingham Forest football kit and emblem.
@@ -71,25 +84,14 @@ I hope you enjoy the quiz!
 
 This Nottingham Forest quiz app is overall responsive across several different screen resolutions as I have implemented the relevant CSS style for it to adjust accordingly. The elements are interactive as the with the webpage. 
 
-- The quiz app has a main heading which is located on the main page. This can be viewed by clicking the link [View heading]().
-- The quiz app has a Start Quiz and an About Quiz buttons which is located on the main page. This can be viewed by clicking the link [View main buttons]().
-- The quiz app has social media links located on the main page. This can be viewed by clicking the link [View Image]().
-- The quiz app has a question bar where the question for the quiz gets displayed.It is located on the quiz page. This can be viewed by clicking the link [View Image]().
-- The quiz app has a score bar where the points for the quiz gets displayed when users get an answer correct. It is located on the quiz page. This can be viewed by clicking the link [View Image]().
-- The quiz app has answer buttons which displays the answers for each question.It is located on the quiz page. This can be viewed by clicking the link [View Image]()
-- The quiz app has a final score header that displays the final score of the quiz. It is located on the final page. This can be viewed by clicking the link [View Image]()
-- The quiz app has a form with an input field for users to enter their names to be saved to the highscores list. It also has three buttons. A save button which submit's the user name to the highscores list when clicked. There is a play again button which restarts the quiz when clicked and a home button which take you back to the home page.  These are located on the final page. These can be viewed by clicking the link [View Image]()
-
-
-
-
-
-
-
-
-
-
-
+- The quiz app has a main heading which is located on the main page. This can be viewed by clicking the link [View heading](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/86a6bbd28a55c7dee63c6372fdc20db086e00fd5/assets/images/mainheading.png).
+- The quiz app has a Start Quiz and an About Quiz buttons which is located on the main page. This can be viewed by clicking the link [View main buttons](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/86a6bbd28a55c7dee63c6372fdc20db086e00fd5/assets/images/homepagebuttons.png).
+- The quiz app has social media links located on the main page. This can be viewed by clicking the link [View Image](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/86a6bbd28a55c7dee63c6372fdc20db086e00fd5/assets/images/socialmedia.png).
+- The quiz app has a question bar where the question for the quiz gets displayed.It is located on the quiz page. This can be viewed by clicking the link [View Image](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/86a6bbd28a55c7dee63c6372fdc20db086e00fd5/assets/images/questionbar.png).
+- The quiz app has a score bar where the points for the quiz gets displayed when users get an answer correct. It is located on the quiz page. This can be viewed by clicking the link [View Image](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/86a6bbd28a55c7dee63c6372fdc20db086e00fd5/assets/images/scorebar.png).
+- The quiz app has answer buttons which displays the answers for each question.It is located on the quiz page. This can be viewed by clicking the link [View Image](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/86a6bbd28a55c7dee63c6372fdc20db086e00fd5/assets/images/answerbuttons.png)
+- The quiz app has a final score header that displays the final score of the quiz. It is located on the final page. This can be viewed by clicking the link [View Image](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/86a6bbd28a55c7dee63c6372fdc20db086e00fd5/assets/images/footballicons.png)
+- The quiz app has a form with an input field for users to enter their names to be saved to the highscores list. It also has three buttons. A save button which submit's the user name to the highscores list when clicked. There is a play again button which restarts the quiz when clicked and a home button which take you back to the home page.  These are located on the final page. These can be viewed by clicking the link [View Image](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/86a6bbd28a55c7dee63c6372fdc20db086e00fd5/assets/images/resultsbuttons.png)
 
 ---
 ## **Technologies Used**
@@ -301,7 +303,6 @@ Thank you to my mentor for his time and advice he has given to me over the devel
 Thank you for the support and help.
 
 Finally, thank you for viewing this project and I hope you enjoy the quiz!
----
 
 ---
 
