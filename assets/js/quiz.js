@@ -146,7 +146,7 @@ function displayQuestions(index) {
     <button type="button" class="answer-btn main-buttons">${questions[index].option3}</button>
     `;
     answerButtons.innerHTML = ListOfBtn;
-    let theButtons = document.querySelectorAll('.answer-btn');
+    theButtons = document.querySelectorAll('.answer-btn');
     for (let i = 0; i < theButtons.length; i++) {
         theButtons[i].setAttribute('onClick', "checkAnswer(this)");
     }
