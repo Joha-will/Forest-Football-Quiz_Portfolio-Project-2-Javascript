@@ -371,11 +371,32 @@ input {
 
 /** Media queries **/
 
+@media screen and (max-width: 1920px) {
+    #start-button,
+    #about-button {
+        margin: 30rem auto -25rem auto;
+
+    }
+
+    .answer-btn {
+        margin: 10rem auto -7rem auto;
+        width: 35%;
+        font-size: 2rem;
+    }
+    #next-btn {
+        width: 20%;
+        padding: 3px;
+        margin: 10rem auto;
+        font-size: 1.5rem;
+    }
+}
+
+
 @media screen and (max-width: 1629px) {
 
     #start-button,
     #about-button {
-        margin: 1rem auto 4rem auto;
+        margin: 8rem auto -2rem auto;
 
     }
 
@@ -403,6 +424,15 @@ input {
     }
 
 }
+
+@media screen and (max-width: 1600px) {
+    #start-button,
+    #about-button {
+        margin: 20rem auto -15rem auto;
+
+    }
+}
+
 
 @media screen and (max-width: 1595px) {
     #start-button,
@@ -998,6 +1028,35 @@ input {
         width: 100vw;
         height: 4.5vh;
     }
+}
+
+
+
+@media screen and (max-width: 393px) {
+
+    #header {
+        font-size: 1.2rem;
+        width: 80%;
+        padding-right: 5px;
+    }
+
+    #start-button,
+    #about-button {
+
+        margin: 2rem auto 1rem auto;
+        font-size: 1rem;
+        padding: 0;
+
+    }
+
+    #about-button {
+        width: 47%;
+    }
+
+    #footer {
+        height: 7vh;
+    }
+
 }
 
 
