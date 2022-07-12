@@ -21,7 +21,6 @@ const questions = [
         option3: '2021',
         answer: '2021',
     },
-    /** 
     {
         question: 'How many years did Brian Clough manage Nottingham Forest?',
         option1: '8',
@@ -72,7 +71,7 @@ const questions = [
         option2: 'Changy the Elephant',
         option3: 'Lucas the Kop Kat',
         answer: 'Robin Hood',
-    },**/
+    },
 
 ];
 
@@ -113,7 +112,7 @@ function startQuiz(){
 /**
  * This is the next question function, which gets the next question in the array of question when the next button is clicked.
  * It also hides the next button everytime one of the answer buttons gets clicked.
- * After looping through the array of objects, it hides the buttons and score bar and diplays you final results.
+ * After looping through the array of objects, it hides the buttons and score bar and diplays the final results.
  */
 function nextQuestion() {
     if (quesCounter < questions.length - 1) {
@@ -130,9 +129,9 @@ function nextQuestion() {
 
 
 /**
- * This function gets the question from the array of objects
- * and displays them users on the quiz page.
- * Then it get's all of the answer buttons on the quiz.html page and give them an attribute of onclick
+ * This function gets the questions from the array of objects
+ * and displays them to users of the quiz page.
+ * Then it get's all of the answer buttons on the quiz.html page and gives them an attribute of onclick
  * to run the check answer function.
  */
 function displayQuestions(index) {
@@ -219,10 +218,10 @@ function finalResults(){
 }
 
 /**
- * This function stops form from being submitted, and get's the value that's entered in the input element.
+ * This function stops the form from being submitted, and get's the value that's entered in the input element.
  * Then it checks if the value that was entered is 5 or more characters.
  * If it is the required amount of characters, the value is then push into an array, which would 
- * then be display to the user on the highscore list.
+ * then be displayed to the user on the highscore list.
  * If the value enter does not meet the required amount of characters, then a alert box with pop stating the requirements.
  */
 function saveName(e) {
