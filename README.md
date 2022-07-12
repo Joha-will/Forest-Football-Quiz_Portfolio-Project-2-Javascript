@@ -82,15 +82,13 @@ I hope you enjoy the quiz!
 
 - ### Wireframes
 
-These wireframes were really useful to me as they give me an idea of how I wanted the app to look. It helped alot with the structure of the app which was really important. I will provide links to the wireframes below.
+    - These wireframes were really useful to me as they give me an idea of how I wanted the app to look. It helped alot with the structure of the app which was really important. I will provide links to the wireframes below.
 
-- Home page 
-- Quiz page
-- Results page
-- Mobile 
-- Ipad/Tablet
-
-The wireframes can be viewed via this link. [Click here to view wireframes]()
+- [Home page](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/a381fe37f4c323d06d3d753cf61d96403c6194a0/assets/images/wireframehome.png)
+- [Quiz page](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/a381fe37f4c323d06d3d753cf61d96403c6194a0/assets/images/wireframequiz.png)
+- [Results page](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/a381fe37f4c323d06d3d753cf61d96403c6194a0/assets/images/wireframeresults.png)
+- [Mobile](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/a381fe37f4c323d06d3d753cf61d96403c6194a0/assets/images/wireframeiphone.png)
+- [Ipad/Tablet](https://github.com/Joha-will/Portfolio-Project-2---Javascript-Essentials/blob/a381fe37f4c323d06d3d753cf61d96403c6194a0/assets/images/wireframeipad.png)
 
 ---
 
