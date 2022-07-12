@@ -1,5 +1,8 @@
 # **Forest Football Quiz** 
 
+![Screenshot 2022-07-12 at 03 31 43](https://user-images.githubusercontent.com/98041941/178396240-1a228dff-1516-42c2-b264-f4cd01aa2535.png)
+
+
 ## **Table of Contents**
 
 - [Introduction](https://github.com/Joha-will/Portfolio-Project-2-Javascript-Essentials#introduction)
